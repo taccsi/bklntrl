@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<params group="maindata">
+	<param name="aktiv_pane_id" type="hidden" default="" label="" description=""  />
+	<param name="id" type="hidden" default="" label="" description=""  />
+	<param name="nev" type="text" default="" label="TERMEKNEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="kategoria_id" type="spec" popup="1" function="getKategoriaSelect" default="" label="KATEGORIA" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />	
+	
+	<param name="aktiv" type="list" function="" default="" label="AKTIV" description="" mandatory="" mandatory_text=""  >
+		<option value="igen" >igen</option>
+		<option value="nem" >nem</option>	
+	</param>
+	<param name="kiado" type="list" function="" default="" label="KIADO" description="" mandatory="" mandatory_text=""  >
+		<option value="" ></option>		
+		<option value="kiado.hu" >kiado.hu</option>	
+		<option value="..." >...</option>		
+	</param>	
+
+	<param name="szerzo" type="list" function="" default="" label="SZERZO" description="" mandatory="" mandatory_text=""  >
+		<option value="" ></option>		
+		<option value="Ábrányi Emil" >Ábrányi Emil</option>
+		<option value="Amade László" >Amade László</option>
+		<option value="Ambrus Zoltán" >Ambrus Zoltán</option>
+		<option value="Ányos Pál" >Ányos Pál</option>
+		<option value="Arany János" >Arany János</option>
+		<option value="Aszlányi Károly" >Aszlányi Károly</option>
+		<option value="Az Ezeregyéjszaka legszebb meséi" >Az Ezeregyéjszaka legszebb meséi</option>												
+		<option value="..." >...</option>
+	</param>	
+	
+	<param name="cikkszam" type="text" default="" label="CIKKSZAM" description="" mandatory="" mandatory_text=""  />
+
+	<param name="arak" type="spec" idKell="1" function="getArak" default="" label="TERMEK ARA" description="" mandatory="" mandatory_text="HIBAS ARAK"  />
+	<param name="_" type="" function="" default="" label="BORITO_PDF" description="" mandatory="" mandatory_text=""  />	
+	<param name="jogdij" type="text" function="" default="" label="JOGDIJ" description="" mandatory="" mandatory_text=""  />
+	<param name="fedezet" type="text" function="" default="" label="FEDEZET" description="" mandatory="" mandatory_text=""  />
+	
+	<param name="ingyenes_oldalak" type="text" function="" default="" label="INGYENES_OLDLAK" description="" mandatory="" mandatory_text=""  />
+	<param name="oldalszam" type="text" function="" default="" label="OLDALSZAM" description="" mandatory="" mandatory_text=""  />
+	<param name="kotes" type="text" function="" default="" label="KOTES" description="" mandatory="" mandatory_text=""  />
+	<param name="kiemelt" type="checkbox" function="" default="" label="KIEMELT" description="" mandatory="" mandatory_text=""  />
+	<param name="leiras" type="editor" default="" popup="-1" label="FULSZOVEG" description="" mandatory="" mandatory_text=""  />	
+	<param name="cimkek" type="textarea" function="" default="" label="CIMKEK" description="" mandatory="" mandatory_text=""  />
+	<param name="metaleiras" type="textarea" function="" default="" label="METALEIRAS" description="" mandatory="" mandatory_text=""  />	
+
+	<param name="tartalomjegyzek" type="editor" function="" default="" label="TARTALOMJEGYZEK" description="" mandatory="" mandatory_text=""  />	
+
+	<param name="isbn" type="text" function="" default="" label="ISBN" description="" mandatory="" mandatory_text=""  />	
+	
+	<param name="cimtipus" type="text" function="" default="" label="CIMTIPUS" description="" mandatory="" mandatory_text=""  />	
+	<param name="kiadoi_szerepkor" type="text" function="" default="" label="KIADOI_SZEREPKOR" description="" mandatory="" mandatory_text=""  />	
+	<param name="illusztrator" type="text" function="" default="" label="ILLUSZTRATOR" description="" mandatory="" mandatory_text=""  />	
+	<param name="fordito" type="text" function="" default="" label="FORDITO" description="" mandatory="" mandatory_text=""  />	
+	<param name="kozremukodoi_szerepkor" type="text" function="" default="" label="KOZREMUKODOI_SZEREPKOR" description="" mandatory="" mandatory_text=""  />	
+	<param name="kozremukodok" type="text" function="" default="" label="KOZREMUKODOK" description="" mandatory="" mandatory_text=""  />							
+
+
+	<param name="cimtipus" type="text" function="" default="" label="NYELVI_SZEREPKOR" description="" mandatory="" mandatory_text=""  />	
+	<param name="nyelv" type="text" function="" default="" label="NYELV" description="" mandatory="" mandatory_text=""  />	
+	<param name="kiadas_orszaga" type="text" function="" default="" label="KIADAS_ORSZAGA" description="" mandatory="" mandatory_text=""  />	
+
+	<param name="kiadas_datuma" type="text" function="" default="" label="KIADAS_DATUMA" description="" mandatory="" mandatory_text=""  />	
+	
+	<param name="kiadas_szama" type="text" function="" default="" label="KIADAS_SZAMA" description="" mandatory="" mandatory_text=""  />	
+	<param name="inprint_neve" type="text" function="" default="" label="INPRINT_NEVE" description="" mandatory="" mandatory_text=""  />	
+	<param name="szerzoi_jog_eve" type="text" function="" default="" label="SZERZOI_JOG_EVE" description="" mandatory="" mandatory_text=""  />							
+
+	<param name="szerzoi_jog_tulajdonosa" type="text" function="" default="" label="SZERZOI_JOG_TULAJDONOSA" description="" mandatory="" mandatory_text=""  />	
+	<param name="termek_forma" type="text" function="" default="" label="TERMEK_FORMA" description="" mandatory="" mandatory_text=""  />	
+	<param name="regisztralt_neve" type="text" function="" default="" label="REGISZTRALT_NEVE" description="" mandatory="" mandatory_text=""  />	
+	<param name="emlekezteto_tipus" type="text" function="" default="" label="EMLEKEZTETO_TIPUS" description="" mandatory="" mandatory_text=""  />	
+	<param name="doi_azonosito" type="text" function="" default="" label="DOI_AZONOSITO" description="" mandatory="" mandatory_text=""  />							
+
+	<param name="doi_weblaplink" type="text" function="" default="" label="DOI_WEBLAPLINK" description="" mandatory="" mandatory_text=""  />	
+	<param name="export_fajlban_megjelenik" type="checkbox" function="" default="" label="EXPORT_FAJLBAN_MEGJELENIK" description="" mandatory="" mandatory_text=""  />	
+	<param name="kinyomtatott_konyv_ara" type="text" function="" default="" label="KINYOMTATOTT_KONYV_ARA" description="" mandatory="" mandatory_text=""  />	
+	<param name="top10" type="text" function="" default="" label="TOP10" description="" mandatory="" mandatory_text=""  />	
+	<param name="news" type="text" function="" default="" label="NEWS" description="" mandatory="" mandatory_text=""  />							
+
+	<param name="beszallito_ar_" type="spec" idKell="1"  function="getBeszListaz" default="" label="" description="" mandatory="" mandatory_text=""  />		
+
+</params> 
+<params group="kateg_beallitasok" >
+	<param name="kapcsolodo_kategoria_id" type="spec" popup="-1" function="getKapcsolodKategoriaSelect" default="" label="KAPCSOLODO KATEGORIAK" description="" mandatory="" mandatory_text=""  />
+</params>
+
+<params group="kepek">
+	<param name="kepek" type="spec" function="getKepek" default="" idKell="1" label="KEPEK" description=""  />
+</params>
+
+<params group="kapcsolodo_termekek" >
+	<param name="kapcsolodo_termek_id" type="spec" idKell="1"  popup="-1" function="getKapcsolodoTermek" default="" label="KAPCSOLODO TERMEKEK" description="" mandatory="" mandatory_text=""  />
+	<param name="cimke" type="textarea" default="" popup="-1" label="CIMKE" description="" mandatory="" mandatory_text=""  />
+</params>
+
+<params group="termekvariaciok" >
+		<param name="F____" type="spec" idKell="1" popup="" function="getTermekVariaciok" default="" label="TERMEKVARIACIOK" description="" mandatory="" mandatory_text=""  />
+</params>
+
+<params group="session" >
+	<param name="arazas_szazalek" type="text" />
+	<param name="arazas_netto_ar" type="text" />	
+	<param name="arazas_sw" type="text" />		
+</params>
+
+
+  <params group="condFields">
+	<param name="cond_nev" q="t.nev" label="-" />
+	<param name="cond_kategoria_id" q="k.id" label="-" />
+	<param name="cond_beszallito_id" q="bszar.beszallito_id" label="-" />	
+	<param name="cond_gyarto_id" q="gyarto.id" label="-" />		
+	<param name="cond_specialis_szures" q="-" label="-" />	
+	<param name="cond_limitstart" q="-" label="-" />
+
+				
+  </params>
+  <params group="ordFields">
+ </params>
+</root>

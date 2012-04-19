@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <params group="condFields">
+     <param name="cond_ev" q="rendeles.datum" label="-" />    
+    <param name="cond_kategoria_id" q="kategoriaT.id" label="-" />  
+	<param name="cond_kiszallitas_datum" q="rendeles.kiszallitas_datum" label="-" />
+    <param name="cond_sikeres_haszon" q="" label="-" />
+    <param name="cond_honap_haszon" q="rendeles.datum" label="-" />
+    <param name="cond_honap" q="rendeles.datum" label="-" />
+    <param name="cond_spec_kimutatas" q="" label="-" />
+    <param name="cond_webshop_id" q="rendeles.webshop_id" label="-" />
+    <param name="cond_atvhely_id" q="rendeles.atvhely_id" label="-" />	
+  </params>
+  <params group="maindata" >
+    <param name="aktiv_pane_id" type="hidden"   />
+  </params>
+  <params group="ordFields">
+
+  </params>
+</root>

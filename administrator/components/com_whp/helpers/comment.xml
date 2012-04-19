@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root> 
+  <params group="maindata" >
+	<param name="nev" type="text" default="" label="NEV" description="" mandatory="mandatoryCheck" mandatory_text="TOLTSD_KI"  />	
+	<param name="email" type="text" default="" label="EMAIL" description="" mandatory="" mandatory_text="TOLTSD_KI"  />	
+	<param name="leiras" type="textarea" default="" label="UZENET" description="" mandatory="mandatoryCheck" mandatory_text="TOLTSD_KI" />
+	<param name="ertekeles" type="spec" function="getErtekeles" default="" label="ERTEKELES" description="" mandatory="" mandatory_text="" />	
+	<param name="__" type="submit" submitValue="ELKULD" default="" label="" mandatory="" mandatory_text="" />
+</params>
+
+<params group="condFields">
+    <param name="cond_nev" q="szuz.nev" label="-" />
+  </params>
+  <params group="ordFields"></params>
+</root>

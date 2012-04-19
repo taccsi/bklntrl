@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5">
+  <name>whp</name>
+  <creationDate>03-Apr-2012</creationDate>
+  <author>Fuli Szabolcs</author>
+  <authorEmail></authorEmail>
+  <authorUrl></authorUrl>
+  <copyright>Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <version>1.0.0</version>
+  <description>AprÃ³hirdetÃ©si rendszer. Powered by Mariomedia</description>
+  <installfile/>
+  <uninstallfile/>
+  <install>
+    <sql/>
+  </install>
+  <uninstall>
+    <sql/>
+  </uninstall>
+  <files folder="site">
+    <folder>assets</folder>
+    <folder>controllers</folder>
+    <folder>helpers</folder>
+    <folder>language</folder>
+    <folder>models</folder>
+    <folder>tables</folder>
+    <folder>unitpl</folder>
+    <folder>views</folder>
+    <filename>whp.php</filename>
+    <filename>xvs.php</filename>
+  </files>
+  <languages folder="site/language">
+    <language tag="en-GB">en-GB.com_xvs.ini</language>
+    <language tag="hu-HU">hu-HU.com_whp.ini</language>
+    <language tag="hu-HU">hu-HU.com_xvs.ini</language>
+    <language tag="hu-HU">hu-HU/hu-HU.com_whp.ini</language>
+  </languages>
+  <administration>
+    <menu img="class:info" link="index.php?option=com_whp">Webshop beállítások</menu>
+    <files folder="admin">
+      <folder>assets</folder>
+      <folder>controllers</folder>
+      <folder>helpers</folder>
+      <folder>install</folder>
+      <folder>language</folder>
+      <folder>models</folder>
+      <folder>tables</folder>
+      <folder>uploaded</folder>
+      <folder>views</folder>
+      <filename>CHANGELOG.php</filename>
+      <filename>config.xml</filename>
+      <filename>whp.php</filename>
+      <filename>xvs.php</filename>
+    </files>
+    <languages folder="admin/language">
+      <language tag="hu-HU">hu-HU.com_xvs.ini</language>
+    </languages>
+  </administration>
+  <params/>
+</install>

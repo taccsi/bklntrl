@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<params group="maindata">
+	<param name="id" type="hidden" default="" label="" description=""  />
+	<param name="azonosito_kod" type="text" function="" default="" label="AZONOSITO_KOD" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />	    
+	<param name="webshop_id" type="dbList" table="#__wh_webshop" v_="id" o_="nev" sw="1" cond="" popup="" default="" label="WEBSHOP" description="AHOL_FEL_LEHET_HASZNALNI" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="ertek" type="text" function="" default="" label="KUPON_ERTEKE" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+
+	<param name="ertek_tipus" type="list" function="" default="" label="KEDVEZMENY_TIPUS" description="" mandatory="" mandatory_text=""  >
+		<option value="OSSZEG" >OSSZEG</option>	
+		<option value="%" >%</option>
+	</param>
+
+	<param name="tipus" type="list" function="" default="" label="TIPUS" description="" mandatory="" mandatory_text=""  >
+		<option value="EGYEDI" >EGYEDI</option>
+		<option value="TOMEGES" >TOMEGES</option>		
+	</param>
+
+	<param name="datum_tol" type="calendar" function="" default="" label="ERVENYES_DATUM_TOL" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="datum_ig" type="calendar" function="" default="" label="ERVENYES_DATUM_IG" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+
+	<param name="ertekhatar" type="text" function="" default="" label="ERTEKHATAR" description="" mandatory="" mandatory_text=""  />	
+
+	<param name="nev" type="text" function="" default="" label="NEV" description="" mandatory="" mandatory_text=""  />
+	<param name="email" type="text" function="" default="" label="EMAIL" description="" mandatory="" mandatory_text=""  />
+	<param name="aktiv" type="sw" function="" default="igen" label="AKTIV" description="" mandatory="" mandatory_text=""  />
+	<param name="felhasznalas_datum" type="spec" function="getFelhasznalDatum" default="" label="FELHASZNALASI_INFORMACIOK" description="" mandatory="" mandatory_text=""  />
+	
+</params>
+  <params group="session">
+
+  </params>
+
+  <params group="condFields">
+	<param name="cond_nev" q="kupon.nev" label="-" />
+  </params>
+  <params group="ordFields">
+ </params>
+</root>

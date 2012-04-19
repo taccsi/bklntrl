@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<params group="maindata">
+		<param name="id" type="hidden" default="" label="" description=""  />		<param name="nev" type="text" default="" label="TERMEKNEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />		<param name="cikkszam" type="text" function="" default="" label="CIKKSZAM" description="" mandatory="" mandatory_text=""  />		<param name="kategoria_id" type="spec" popup="1" function="getKategoriaSelect" default="" label="ADMIN_KATEGORIA" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />		<param name="user_editable" type="sw" function="" default="nem" label="USER_EDITABLE" description="" mandatory="" mandatory_text=""  />		<param name="aktiv" type="sw" function="" default="igen" label="AKTIV" description="" mandatory="" mandatory_text=""  />		<param name="megvasarolhato" type="sw" function="" default="igen" label="MEGVASAROLHATO" description="" mandatory="" mandatory_text=""  />		<param name="priceList" type="spec" idKell="1" function="getProductPriceList" label="PRICES" description="" mandatory="" mandatory_text=""  />		<param name="me" type="text" function="" default="" label="MENNYISEGI_EGYSEG" description="" mandatory="" mandatory_text=""  />		<param name="idopontok" type="textarea" default="" label="IDOPONTOK" description="" mandatory="" mandatory_text=""  />
+		<param name="leiras_rovid" type="editor" default="" label="LEIRAS_ROVID" description="" mandatory="" mandatory_text=""  />		<param name="leiras" type="editor" default="" label="LEIRAS" description="" mandatory="" mandatory_text=""  />
+					</params>	<params group="maindata_kapcsolodo">
+        <param name="id" type="hidden" default="" label="" description=""  />
+        <param name="nev" type="text" default="" label="TERMEKNEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+        <param name="cikkszam" type="text" function="" default="" label="CIKKSZAM" description="" mandatory="" mandatory_text=""  />
+        <param name="kapcsolodo_termek_id" type="spec" function="getKapcsolodoTermekIdFromURL" label=""  description="" mandatory="" mandatory_text=""  />
+        <param name="szulo_termek_id" type="spec" function="getKapcsolodoTermekIdFromURL" label=""  description="" mandatory="" mandatory_text=""  />
+        
+        <param name="kategoria_id" type="spec" function="getKapcsolodoTermekKategoria" default="" label="" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />
+        <param name="user_editable" type="sw" function="" default="nem" label="USER_EDITABLE" description="" mandatory="" mandatory_text=""  />
+        <param name="aktiv" type="sw" function="" default="igen" label="AKTIV" description="" mandatory="" mandatory_text=""  />
+        <param name="megvasarolhato" type="sw" function="" default="igen" label="MEGVASAROLHATO" description="" mandatory="" mandatory_text=""  />
+        <param name="priceList" type="spec" idKell="1" function="getProductPriceList" label="PRICES" description="" mandatory="" mandatory_text=""  />
+        <param name="me" type="text" function="" default="" label="MENNYISEGI_EGYSEG" description="" mandatory="" mandatory_text=""  />
+        <param name="leiras" type="editor" default="" label="LEIRAS" description="" mandatory="" mandatory_text=""  />
+        
+    </params>
+	
+	<params group="termvarok" >		<param name="termekvariaciok" type="spec" idKell="1" popup="-1" function="getTermekVariaciok" default="" label="TERMEKVARIACIOK" description="" mandatory="" mandatory_text=""  />	</params>
+	
+	
+		<params group="kateg_beallitasok" >
+		<param name="kapcsolodo_kategoria_id" type="spec" popup="-1" function="getKapcsolodKategoriaSelect" default="" label="KAPCSOLODO KATEGORIAK" description="" mandatory="" mandatory_text=""  />	</params>	<params group="fajlok" >
+		<param name="teszt" type="file" dir="termekfajlok" kapcsoloNev="termek_id" megengedettFajlok="pdf,jpg,jpeg" function="" default="" label="KAPCSOLODO_ALLOMANY" description="" mandatory="" mandatory_text=""  />	</params>	<params group="kepek">
+		<param name="kepek" type="spec" function="getKepek" default="" idKell="1" label="KEPEK" description=""  />	</params>	<params group="kapcsolodo_termekek" >		<param name="kapcsolodo_termek_id" type="spec" function="getKapcsolodoTermekek" label="KAPCSOLODO_TERMEKEK" idKell="1" description="" mandatory="" mandatory_text=""  />	</params>	<params group="session" >
+		<param name="arazas_szazalek" type="text" />		<param name="arazas_netto_ar" type="text" />		<param name="arazas_sw" type="text" />		<param name="cond_spec2__" type="list" function="" popup="" default="" label="____" description="" mandatory="" mandatory_text=""  >
+			<option value=""></option>			<option value="7">Főtermék</option>			<option value="1">Aktív</option>			<option value="2">Nem aktív</option>			<option value="8">Megvásárolható</option>			<option value="9">Nem vásárolható meg</option>			<option value="3">Kisker ár nem = 0</option>			<option value="4">Kisker ár = 0</option>			<option value="5">Beszállítói ár = 0 (csak kategórián belül)</option>			<option value="6">Beszállítói ár nem = 0 (csak kategórián belül)</option>		</param>		<param name="cond_spec2" type="list" function="" popup="" default="" label="____" description="" mandatory="" mandatory_text=""  >
+			<option value=""></option>			<option value="1">Aktív</option>			<option value="2">Nem aktív</option>			<option value="3">Termékek számlázóból</option>			<option value="4">Kézzel felvitt termékek</option>			<option value="5">Cikkszám egyezések</option>		</param>	</params>	<params group="condFields">
+		<param name="cond_termeknev" q="" label="-" />		<param name="cond_kampany_id" q="" label="-" />		<param name="cond_kategoria_id" q="k.id" label="-" />		<param name="cond_beszallito_id" q="bszar.beszallito_id" label="-" />		<param name="cond_gyarto_id" q="gyarto.id" label="-" />		<param name="cond_specialis_szures" q="-" label="-" />		<param name="cond_limitstart" q="-" label="-" />		<param name="cond_spec2" q="-" label="-" />	</params>	<params group="ordFields"></params></root>

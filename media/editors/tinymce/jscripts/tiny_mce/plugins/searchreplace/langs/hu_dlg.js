@@ -1,0 +1,15 @@
+tinyMCE.addI18n('hu.searchreplace_dlg',{
+findwhat:"Keresendő",
+replacewith:"Csere",
+direction:"Irány",
+up:"Fel",
+down:"Le",
+mcase:"Kis- és nagybetű egyezés",
+findnext:"Következő keresése",
+allreplaced:"A keresett karaktersor minden előfordulása lecserélésre került.",
+"searchnext_desc":"Újra keresés",
+notfound:"A keresés befeejződött. A keresett karaktersor nem található.",
+"search_title":"Keresés",
+"replace_title":"Keresés/Csere",
+replaceall:"Összes cseréje",
+replace:"Csere"});

@@ -1,0 +1,13 @@
+.moduletable_mainmenu ul{list-style:none;float:left;width:940px;background:url(../images/menu-bg.png) repeat-x top left;margin:0;padding:0 20px;}
+.moduletable_mainmenu ul li{float:left;position:relative;background:url(../images/menu-link-bg.png) no-repeat top right;height:31px;margin:0;}
+.moduletable_mainmenu ul li a{float:left;text-decoration:none;color:#FFF;display:block;font-style:italic;font-size:12px;padding:5px 28px 5px 5px;}
+.moduletable_mainmenu ul li:last{background:url(../images/menu-link-bg.png) no-repeat top left;}
+.moduletable_mainmenu ul li:last a{padding-right:0;}
+.moduletable_mainmenu ul li:hover{background-image:none;}
+.moduletable_mainmenu ul li span{width:17px;height:35px;float:left;background:url(subnav_btn.gif) no-repeat center top;}
+.moduletable_mainmenu ul li span.subhover{background-position:center bottom;cursor:pointer;}
+.moduletable_mainmenu ul li ul {list-style:none;position:absolute;left:0;top:30px;display:none;float:left;width:170px;background:#325619 url(../images/menu-bg.png) repeat-x bottom center;z-index:1000;margin:0;padding:0;}
+.moduletable_mainmenu ul li:hover ul {display: block;}
+.moduletable_mainmenu ul li ul li{height:auto;border-top:1px solid #252525;border-bottom:1px solid #444;clear:both;width:170px;background-image:none;margin:0;padding:5px 0;}
+.moduletable_mainmenu ul li ul li a{float:left;width:145px;padding-left:20px;}
+.moduletable_mainmenu ul li a:hover,.moduletable_mainmenu ul .acite > a {color:#ffca00;}

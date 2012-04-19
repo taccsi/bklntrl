@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+ <params>
+	<param type="spacer" default="Általános beállítások" />
+
+	<param type="spacer" default="Rendelés visszaigazoló email" />
+	<param type="text" name="felado_nev" size="80" label="Feladó neve:" description="" />
+    <param type="text" name="felado_email" size="80" label="Feladó email:" description="" />	
+    <param type="text" name="admin_email" size="80" label="Adminisztrátor e-mail címe:" description="" />
+    <param type="text" name="targy" size="80" label="Tárgy:" description="" />
+	<param type="textarea" name="elkoszones"  rows="5" cols="40" label="Elköszönés" description="" /> 
+  </params>
+</config>

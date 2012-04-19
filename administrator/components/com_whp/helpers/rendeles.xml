@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<params group="kupon" >
+		<param name="azonosito_kod" type="spec" function ="getKupon" default="" label="AZONOSITO_KOD" description="" mandatory="" mandatory_text=""  />
+	</params>
+	
+	<params group="data6" >
+		<param name="atvhely_id" type="spec" function="getTelepulesId" default="" label="ATVEVOHELY" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	</params>
+
+	<params group="session" >
+		<param name="megye" type="hidden" default="" label="MEGYE" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />
+		<param name="telepules_id" type="hidden" default="" label="" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />
+		<param name="pickpack_atvhely_id" type="hidden" default="" label="" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />
+		
+	</params>
+	
+	<params group="data5" >
+		<param name="sz_nev" type="spec" function="getOrderDbField" default="" label="SZALLITASI_NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM_TOLTSE_KI"  />
+		<param name="sz_irszam" type="spec" function="getOrderDbField" default="" label="IRANYITOSZAM" description="" mandatory="mandatoryCheck" mandatory_text="KEREM_TOLTSE_KI"  />
+		<param name="sz_varos" type="spec" function="getOrderDbField" default="" label="VAROS" description="" mandatory="mandatoryCheck" mandatory_text="KEREM_TOLTSE_KI"  />
+		<param name="sz_utca" type="spec" function="getOrderDbField" default="" label="UTCA" description="" mandatory="mandatoryCheck" mandatory_text="KEREM_TOLTSE_KI"  />
+		<param name="" type="spec" label="SZAMLAZASI_SZALLITASI_CIM_EGYEZIK" function="getEgyezesGomb" />
+	</params>
+    
+    <params group="fizetesi_mod">
+        <param name="fizetes" type="spec" function="getFizetes" mandatory="mandatoryCheck" mandatory_text="KEREM VALASSZON" default="" label="FIZETESI MOD" description="" />
+    </params>
+    
+	<params group="data2">
+		<param name="szallitas" type="spec" function="getSzallitasiMod" mandatory="mandatoryCheck" mandatory_text="KEREM VALASSZON" default="" label="SZALLITASI MOD" description="" >
+			<option value="CSOMAGKULDO_SZOLGALAT_ELORE_UTALAS" >CSOMAGKULDO_SZOLGALAT_ELORE_UTALAS</option>
+			<option value="CSOMAGKULDO_SZOLGALAT_FIZETES_ATVETELKOR" >CSOMAGKULDO_SZOLGALAT_FIZETES_ATVETELKOR</option>
+					
+		</param>
+	</params>
+
+
+	<params group="data3">
+		<param name="szamlazasi_nev" type="spec" function="getOrderDbField" default="" label="SZAMLAZASI_NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM_TOLTSE_KI"  />
+		<param name="irszam" type="spec" function="getOrderDbField" default="" label="IRANYITOSZAM" description="" mandatory="mandatoryCheck" mandatory_text=""  />
+        <param name="varos" type="spec" function="getOrderDbField" default="" label="VAROS" description="" mandatory="mandatoryCheck" mandatory_text=""  />
+        <param name="utca" type="spec" function="getOrderDbField"  default="" label="UTCA" description="" mandatory="mandatoryCheck" mandatory_text=""/>
+	</params>
+
+	<params group="data4">
+		<param name="nev" type="text"  default="" label="NEV" description="" mandatory="" mandatory_text="KEREM_TOLTSE_KI"  />
+		<param name="lakcim" type="text"  default="" label="LAKCIM" description="" mandatory="" mandatory_text="KEREM_TOLTSE_KI"  />
+		<param name="szuletesi_hely" type="text"  default="" label="SZULETESI_HELY" description="" mandatory="" mandatory_text="KEREM_TOLTSE_KI"  />
+		<param name="szuletesi_datum" type="calendar"  default="" label="SZULETESI_DATUM" description="" mandatory="" mandatory_text="KEREM_TOLTSE_KI"  />
+		<param name="szigszam" type="text"  default="" label="SZEMELYI_IGAZOLVANY_SZAM" description="" mandatory="" mandatory_text="KEREM_TOLTSE_KI"  />
+		<param name="telefon" type="text"  default="" label="TELEFON" description="" mandatory="" mandatory_text="KEREM_TOLTSE_KI"  />
+		<param name="email" type="spec" function="getUserEmail" default="" label="EMAIL" description="" mandatory="mandatoryCheck" mandatory_text="KEREM_TOLTSE_KI"  />
+		<param name="telefon" type="spec" function="getOrderDbField" default="" label="TELEFON" description="" mandatory="mandatoryCheck" mandatory_text="KEREM_TOLTSE_KI"  />
+		<param name="megjegyzes" type="textarea" subtype="textarea" default="" label="MEGJEGYZES" description="" />	
+		
+		
+	   <param name="submit2" type="submit" default="" label="" submitValue="RENDELES_ELKULDESE" description="" mandatory="" mandatory_text=""  />
+		<param name="user_id" type="spec" label="" function="getUserIdHidden" />
+		<param name="datum" type="spec" function="getHiddenDatum" default="" label="" description=""/>		
+	</params>
+	
+    <params group="nemkell">
+        <param name="vasarlasi_feltetelek" type="checkboxlist" function="" popup="" default="" label="VASARLASI_FELTETELEK" description="" mandatory="mandatoryCheck" mandatory_text="KEREM_FOGADJA_EL_A_FELTETELEKET"  >
+            <option value="igen">ELFOGADOM_A_FELTETELEKET</option>
+        </param>
+    </params>
+  <params group="admin" >
+    <param name="id" type="hidden"   />
+    <param name="allapot" type="list" function="" popup="" default="" label="ALLAPOT" description="" mandatory="" mandatory_text=""  >
+      <option value=""></option>
+      <option value="FUGGOBEN">FUGGOBEN</option>
+      <option value="VISSZAUTASITVA">VISSZAUTASITVA</option>
+      <option value="KISZALLITAS_ALATT">KISZALLITAS_ALATT</option>
+    </param>
+  	<param name="fiktiv" type="spec" label="VASARLO" function="getVasarloAdatok" />
+  	<param name="fiktiv" type="spec" label="RENDELESI_ADATOK" function="getRendelesiAdatok" />	
+  	<param name="fiktiv" type="spec" label="TETELEK" function="getTetelek" />
+	<param name="fiktiv" type="spec" label="OSSZESEN" function="getOsszesen" />
+  </params>
+  
+  <params group="osszesen_valtozok" >
+    <param name="mindosszesen_brutto" />
+    <param name="mindosszesen_netto" />
+  </params>
+
+  <params group="felhasznalo_valtozok" >
+    <param name="name" />
+    <param name="username" />
+    <param name="email" />
+  </params>
+
+  <params group="tetel_valtozok" >
+    <param name="id" />
+    <param name="cikkszam" />
+    <param name="nev" />
+    <param name="ar" />
+    <param name="mennyiseg" />
+    <param name="afaErtek" />
+	<param name="kategorianev" />
+    <param name="gyartonev" />
+
+    <param name="szallitasi_tomeg" />  
+  </params>
+  <params group="condFields">
+    <param name="cond_nev" q="rendeles.nev" label="-" />
+  </params>
+  <params group="ordFields"></params>
+</root>

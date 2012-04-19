@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<params group="maindata">
+	<param name="id" type="hidden" default="" label="" description=""  />
+	<param name="nev" type="text" default="" label="TERMEKNEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="cikkszam" type="text" default="" label="CIKKSZAM" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />	
+	<param name="kategoria_id" type="spec" function="getKategoria" default="" label="KATEGORIA" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="ar" type="spec" function="getAr" default="" label="AR" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="akcios_ar" type="text" default="" label="AKCIOS_AR_NETTO" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />	
+	<param name="aktiv" type="sw" default="igen" label="AKTIV" description="" mandatory="" mandatory_text=""  />
+	<param name="akcios" type="sw" default="nem" label="KIEMELT" description="" mandatory="" mandatory_text=""  />	
+	<param name="gyarto_id" type="dbList" table="#__whp_gyarto" o_="nev" v_="id" default="" label="GYARTO" sw="1" description="" mandatory="" mandatory_text=""  />	
+	<param name="leiras_rovid" type="textarea" default="" label="LEIRAS_ROVID" description="" mandatory="" mandatory_text=""  />
+	<param name="leiras" type="editor" default="" label="LEIRAS" description="" mandatory="" mandatory_text=""  />
+</params>
+<params group="kepek">
+	<param name="kepek" type="spec" function="getKepek" default="" idKell="1" label="KEPEK_" description=""  />
+</params>
+
+<params group="termekvariaciok" >
+		<param name="F____" type="spec" idKell="1" popup="" function="getTermekVariaciok" default="" label="TERMEKVARIACIOK" description="" mandatory="" mandatory_text=""  />
+</params>
+<params group="session">
+	<param name="afa_id" type="spec" function="getAfaSelect" default="" label="AFA" description="%"  />
+	<param name="reszletes_kereso_sw" type="hidden" default="" />	
+	
+</params>
+  <params group="condFields">
+	<param name="cond_cimke_varazslo" q="----------" label="-" />  
+	<param name="cond_megvasarolhato" q="termek.megvasarolhato" label="-" />  
+	<param name="cond_nev" q="termek.nev" label="-" />
+	<param name="cond_nev2" q="termek.nev" label="-" />		
+	<param name="cond_kategoria_id" q="kategoria.id" label="-" />	
+	<param name="cond_gyarto_id" q="gy.id" label="-" />
+	<param name="cond_kiado" q="termek.kiado" label="-" />	
+	<param name="cond_barmilyen_kifejezes" q="termek.kiado" label="-" />	
+	<param name="cond_szerzo_id" q="szerzo_id" label="-" />		
+	<param name="kampany_id" q="kampany_kapcsolo.kampany_id" label="-" />
+	<param name="cond_cimke_id" q="ck.cimke_id" label="-" />
+	<param name="HOLLESZ" q="tv.ertek" label="-" />
+	<param name="KINEKLESZ" q="tv.ertek" label="-" />
+	<param name="cond_ar_tol" q="(ar.ar * (1+ afa.ertek/100))" label="-" />
+	<param name="cond_ar_ig" q="(ar.ar * (1+ afa.ertek/100))" label="-" />
+		
+	
+  </params>
+  <params group="ordFields">
+    <param name="sorrend_oszlop" />
+    <param name="sorrend_irany" />
+  </params>
+</root>

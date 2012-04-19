@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root> 
+  <params group="maindata" >
+
+   	<param name="id" type="hidden" />
+	<param name="termek_id" type="spec" function="getTermIdHidden"  />
+    
+	
+	<param name="user_nev" type="text" default="" label="USER_NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />	
+		
+		
+	<param name="nev" type="text" default="" label="HOZZASZOLAS_CIM" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="szoveg" type="textarea" default="" label="HOZZASZOLAS_SZOVEG" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  /> 	
+	
+	<param name="aktiv" type="hidden" default="igen" label="AKTIV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />	
+	<param name="datum" type="spec" function="getDatum" default="" label="" description="" mandatory="" mandatory_text="" />
+	<param name="ELKULD" type="spec" function="getFeladButton" default="" label="" description="" mandatory="" mandatory_text="" />
+</params> 
+
+<params group="admin" >
+
+   	<param name="id" type="hidden" />
+	<param name="termek_id" type="hidden" label="TERMEK_ID" />
+    
+	<param name="nev" type="text" default="" label="HOZZASZOLO_NEV" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="email" type="text" default="" label="EMAIL" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="leiras" type="textarea" default="" label="HOZZASZOLAS_SZOVEG" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  /> 
+	<param name="termek_minoseg" type="text" default="" label="TERMEK_MINOSEG" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  /> 
+	<param name="kiszolgalas_minosege" type="text" default="" label="KISZOLGALAS_MINOSEG" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  /> 
+	<param name="webaruhaz_kezelhetosege" type="text" default="" label="WEBARUHAZ_ERTEKELES" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  /> 	
+	
+	<param name="aktiv" type="sw" default="igen" label="AKTIV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />	
+	<param name="datum" type="spec" function="getDatum" default="" label="" description="" mandatory="" mandatory_text="" />
+	
+</params>
+
+
+<params group="condFields">
+    <param name="cond_nev" q="k.nev" label="-" />
+	<param name="cond_aktiv" q="k.aktiv" label="-" />
+	<param name="cond_termek_id" q="t.id" label="-" />
+	<param name="user_nev" q="k.user_nev" label="-" />
+	<param name="user_email" q="k.user_email" label="-" />
+  </params>
+  <params group="ordFields"></params>
+  
+</root>

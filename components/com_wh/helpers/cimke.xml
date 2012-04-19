@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root> 
+  <params group="maindata" >
+  
+    <param name="text" type="text" default="" label="UJ_CIMKE" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />	
+	<param name="HOZZAAD" type="spec" function="getFeladButton" default="" label="" description="" mandatory="" mandatory_text="" />
+</params>
+
+
+<params group="condFields">
+    <param name="cond_nev" q="szuz.nev" label="-" />
+  </params>
+  <params group="ordFields"></params>
+  
+</root>

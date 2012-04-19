@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<params group="maindata" >
+	<param name="id" type="hidden" default="" label="" description=""  />	
+	<param name="nev" type="text" default="" label="WEBSHOP NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="url" type="text" default="" label="URL" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="inc_mail" type="text" default="" label="BEERKEZO_LEVELEK_EMAIL" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="host_" type="text" default="" label="HOST" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="user_" type="text" default="" label="USER" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+
+	<param name="jelszo_" type="text" default="" label="JELSZO" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="database_" type="text" default="" label="DATABASE" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="prefix_" type="text" default="" label="PREFIX" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="szallitasiDijtetelek" type="spec" function="getSzallitasiDijtetelek" default="" label="SZALLITASI_DIJTETELEK" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="visszaigazolo_atvetelkor" type="editor" default="" label="VISSZAIGAZOLO_ATVETELKOR" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="visszaigazolo_elore_utalas" type="editor" default="" label="VISSZAIGAZOLO_ELORE_UTALAS" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="visszaigazolo_bigfish" type="editor" default="" label="VISSZAIGAZOLO_BIGFISH" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />
+</params>
+
+ <params group="condFields">
+  	<param name="cond_nev" q="ws.nev" label="-" />
+	<param name="cond_url" q="ws.url" label="-" />
+  </params>
+  <params group="ordFields">
+  </params>
+</root>

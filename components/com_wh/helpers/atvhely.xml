@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<params group="maindata">
+	<param name="id" type="hidden" default="" label="" description=""  />
+	<param name="nev" type="text" default="" label="ATVEVOHELY_NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="telepules_id" type="spec" function="getTelepulesId" default="" label="CIM" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="telefon" type="text" default="" label="TELEFON" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />	
+	<param name="email" type="text" default="" label="EMAIL" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />	
+	<param name="nyitvatartas" type="textarea" default="" label="NYITVATARTAS" description="" mandatory="" mandatory_text=""  />
+	<param name="aktiv" type="sw" function="" default="" label="AKTIV" description="" mandatory="" mandatory_text=""  />
+</params>
+
+<params group="szamlazasi_cim">
+	<param name="szamlazasi_nev" type="text" default="" label="SZAMLAZASI_NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="szamlazasi_irszam" type="text" default="" label="IRANYITOSZAM" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="szamlazasi_telepules" type="text" default="" label="TELEPULES" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="szamlazasi_utca_hazszam" type="text" default="" label="UTCA_HAZSZAM" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+</params>
+
+  <params group="session">
+	<param name="utca_hazszam" type="hidden" label="" /> 
+	<param name="irszam" type="hidden" label="" /> 	
+  </params>
+
+  <params group="condFields">
+	<param name="cond_nev" q="nev" label="-" />
+  </params>
+  <params group="ordFields">
+ </params>
+</root>

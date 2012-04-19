@@ -1,0 +1,214 @@
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-spacing: 0px;
+}
+table td {
+	border-spacing: 0px;
+}
+table tr {
+	border-spacing: 0px;
+}
+
+/* keret */
+
+.logo {
+	display: block;
+	width: 128px;
+	height: 890px;
+	text-decoration: none;
+	float: left;
+}
+
+#wrapper {
+	width: 1098px;
+}
+#nav-main {
+	height: 31px;
+	background: url("../images/bg_nav-main.png");
+}
+#body {
+	width: 100%;
+	overflow: hidden;
+	background: url("../images/bg_right.png") top right repeat-y;
+}
+#body-left {
+	width: 798px;
+	float: left;
+	background: url("../images/bg_body-left.png") no-repeat;
+}
+#body-left-inner {
+	width: 100%;
+	overflow: hidden;
+	background: url("../images/bg_corner.png") bottom right no-repeat;
+}
+#main {
+	float: left;
+	width: 670px;
+	
+}
+#nav-second {
+	
+}
+#content {
+	padding: 65px 47px 52px 13px;
+}
+#content .inner {
+	padding: 0px 20px 20px 20px;
+	
+}
+#body-right {
+	width: 300px;
+	float: left;
+}
+
+/*tartalom*/
+
+body {
+	background-color: #e0e0e0;
+	font-family:  "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #454545;
+	font-size: 12px;
+}
+
+h1, .contentheading, .componentheading {
+	font-size: 24px;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+}
+
+#content object {margin: 14px 0;}
+#content p {
+	line-height: 140%;
+	margin-bottom: 11pt; letter-spacing:1px;
+}
+
+
+
+/* menu */
+.moduletable_menu {
+	margin-left: 148px;
+}
+	.moduletable_menu ul {position: relative;}
+		.moduletable_menu ul li {
+			float: left;
+		}
+			.moduletable_menu li li {
+				padding-right: 15px;
+			}
+		.moduletable_menu li span {display:none;}
+		.moduletable_menu li li span {display: block; font-size: 16px;}
+		.moduletable_menu ul ul {
+			position: absolute;
+			top: 42px;
+			left: 12px;
+		}
+		.moduletable_menu li a {
+			display: block; 
+			height: 29px;
+		}
+		.moduletable_menu .item3 a { background: url("../images/m_rolunk.png"); width: 79px;}
+		.moduletable_menu .item3 a:hover, .moduletable_menu .active3 a { background: url("../images/m_rolunk_h.png"); }
+		
+		.moduletable_menu .item4 a { background: url("../images/m_munkaink.png"); width: 101px;}
+		.moduletable_menu .item4 a:hover, .moduletable_menu .active4 a { background: url("../images/m_munkaink_h.png"); }
+		
+		.moduletable_menu .item8 a { background: url("../images/m_szolgaltatasok.png"); width: 145px;}
+		.moduletable_menu .item8 a:hover, .moduletable_menu .active8 a { background: url("../images/m_szolgaltatasok_h.png"); }
+		
+		.moduletable_menu .item9 a { background: url("../images/m_kontakt.png"); width: 86px;}
+		.moduletable_menu .item9 a:hover, .moduletable_menu .active9 a { background: url("../images/m_kontakt_h.png"); }
+		
+		
+		.moduletable_menu li li a {
+			width: auto!important; 
+			background: none!important;
+			text-decoration: none;
+			text-transform: uppercase;
+			color: #454545;
+		}
+		.moduletable_menu li li a:hover, .moduletable_menu li .active a {
+			text-decoration: underline;
+		}
+		
+/*modulok*/
+
+.moduletable_10p {margin-bottom: 1px;}
+
+.moduletable_facebookinfos {
+	position: relative;
+}
+	.moduletable_facebookinfos .fblink {
+		position: absolute;
+		width: 147px;
+		height: 37px;
+		top: -1px;
+		right: 0px;
+		text-decoration: none;
+		background: url("../images/logo_facebook.png") no-repeat;
+	}
+	
+
+div.like{float:left; margin:-50px 0px 0px 144px;}
+
+.moduletable_yt .list_image{ float:left; display:inline; }
+.moduletable_yt .list_image img{ width:100px; padding:2px; border:1px solid #ccc; margin-right:6px;}
+.moduletable_yt .list_text{ float:left; display:inline;width:178px; font-size:11px;}
+.moduletable_yt .list_item{overflow:hidden;  margin:0px 5px 10px 5px;}
+.moduletable_yt{ margin-bottom:20px; }
+
+/*kapcsolat*/
+
+.contactform {width: 570px;}
+.contactform-top {
+	height: 11px;
+	font-size: 0px;
+	background: url("../images/contactform_top.png") no-repeat;}
+.contactform-middle {
+	background: url("../images/contactform_middle.png") repeat-y;
+	padding: 3px 0px 0px 16px;
+}
+.contactform-bottom {
+	height: 11px;
+	font-size: 0px;
+	background: url("../images/contactform_bottom.png") no-repeat;
+}
+.contactform h2 {
+	padding-bottom: 15px;
+}
+.contactform #nev, .contactform #email, .contactform #tel, .contactform #cegnev, .contactform #web {
+	width: 407px; padding-left: 10px; padding-right: 10px;
+	height: 26px; padding-top: 14px; padding-bottom: 14px;
+	background: url("../images/contactinput.png") no-repeat;
+	border: none;
+}
+.contactform input, .contactform textarea {
+	
+}
+.contactform textarea {
+	width: 511px; padding-left: 13px; padding-right: 13px;
+	height: 92px; padding-top: 14px; padding-bottom: 15px;
+	background: url("../images/contacttextarea.png") no-repeat;
+	border: none;
+}
+.contactform .rw td {padding-left: 8px;}
+.contactform .formClr {text-align: right; padding-right: 10px;}
+.contactform #component15 {padding-right: 10px;}
+.contactform .td_submit {text-align: center; padding-right: 10px; padding-top: 15px; }
+.contactform #elkuld {
+	width: 145px; padding-right: 10px;
+	height: 48px;
+	background: url("../images/contactsubmit.png") no-repeat;
+	border: none;
+	cursor: pointer;
+	color: #ffffff;
+}

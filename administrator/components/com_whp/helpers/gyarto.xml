@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root> 
+  <params group="maindata" >
+    <param name="id" type="hidden"   />
+    <param name="nev" type="text" default="" label="NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />	
+    <param name="url" type="text" default="http://" label="HONLAP" description="" mandatory="" mandatory_text=""  />	
+	<param name="aktiv" type="sw" default="" label="AKTIV" description="" mandatory="" mandatory_text=""  />
+
+	<param name="kepek" type="spec" function="getKepek" idKell="1" default="" label="KEPEK_" description=""  />
+
+	
+</params>
+
+
+<params group="condFields">
+    <param name="cond_nev" q="gyarto.nev" label="-" />
+  </params>
+  <params group="ordFields"></params>
+  
+</root>

@@ -1,0 +1,54 @@
+@import url('reset.css');
+@import url('default.css');
+@import url('default.dropdown.css');
+@import url('default.dateinput.css');
+@import url('default.timepicker.css');
+
+a {color: #6CBA2E;}
+
+#left > div {line-height: 20px;padding: 20px 0 20px 16px;}
+
+.moduletable_loginbox{background:url(../images/login.jpg) no-repeat top left;margin-top:30px!important;padding-top:35px!important;}
+	.moduletable_loginbox h3{margin-bottom:25px;}
+	.moduletable_loginbox ul{margin-top: 30px; margin-left: -20px;}
+	.moduletable_loginbox ul li{text-align: center;}
+	.moduletable_loginbox ul li a{color: white;}
+	div.loginform{margin-top:10px;text-align:center;}
+	.moduletable_loginbox form input,.moduletable_loginbox form select{width:167px;border:1px solid #2E5617;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;margin:3px 0;padding:1px;}
+
+.moduletable_bottommenu ul{font-size:11px;line-height:16px;padding-top:15px;overflow:hidden;}
+	.moduletable_bottommenu ul li{display:block;float:left;}
+	.moduletable_bottommenu ul li a{color:#153006;font-weight:700;text-decoration:none;border-bottom:1px solid #6f895b;margin:10px 10px 3px;padding:2px 10px;}
+	.moduletable_bottommenu ul li ul li{display:block;float:none;}
+	.moduletable_bottommenu ul li ul li a{color:#FFF;font-weight:400;text-decoration:none;border:none;}
+	.moduletable_bottommenu ul li ul li a:hover{color:#EAB105;}
+	.moduletable_bottommenu ul li ul li a:before{content:" - ";}
+	
+.moduletable_letoltesek {background:url(../images/ures_dobozkeret.jpg) no-repeat bottom left;padding-bottom:20px;}
+	.moduletable_letoltesek h3{background:url(../images/ures_dobozkeret.jpg) no-repeat top left;padding:20px;}
+	.moduletable_letoltesek a{margin-left:15px;padding-left:35px;display:block;height:50px!important;line-height:1.3em;width:0px!important; background-repeat: no-repeat!important;}
+
+.moduletable_elmenybeszamolok{background:url(../images/vendegkonyv.jpg) no-repeat bottom left;padding-bottom:110px;}
+	.moduletable_elmenybeszamolok h3{background:url(../images/vendegkonyv.jpg) no-repeat top left;padding:20px 20px 2px;}
+	.moduletable_elmenybeszamolok h4{color:#75a352;font-size:14px;font-weight:400;padding:0 0 3px 19px;}
+	.moduletable_elmenybeszamolok a{color:#e19805;font-size:12px;font-weight:400;padding:0 0 0 19px;}
+	.moduletable_elmenybeszamolok .li{padding:15px 10px 0 20px;}
+	.moduletable_elmenybeszamolok .li a{color:#6cba2e;display:block;font-weight:700;padding:0 0 2px;}
+	.moduletable_elmenybeszamolok .guestpost .date{color:#eab105;font-size:10px;}
+	
+/* whp */
+/* utvonalak */
+
+
+#unidiv_list{}
+#unidiv_list td.td_picture{}
+#unidiv_list td img{ border: 1px solid #000000;
+    float: left;
+    margin-right: 20px;
+    padding: 5px;}
+#unidiv_list h3{margin-top:0px!important;}
+#unidiv_list .item{margin:20px 0px 20px 0px;}
+
+#unidiv_bontas .leiras{text-align:justify;}
+.variacio_table td{padding-bottom:3px;}
+.variacio_table .VARIACIO_NEV{ font-weight:bold; width:140px;}

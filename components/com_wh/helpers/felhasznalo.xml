@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<params group="maindata" >
+	<param name="id" type="hidden" default="" label="" description=""  />	
+	<param name="name" type="text" default="" label="FELHASZNALO_NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="username" type="text" default="" label="AZONOSITO" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="usertype" type="text" default="" label="FELHASZNALO TIPUSA" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="email" type="text" default="" label="EMAIL" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="registerDate" type="text" default="" label="REGISZTRÁCIO DATUMA" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="lastvisitDate" type="text" default="" label="UTOLSO BELEPES" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />
+</params>
+<params group="condFields">
+	<param name="cond_felhasznalo_nev" q="users.name" label="-" />
+	<param name="cond_email" q="users.email" label="-" />
+	<param name="cond_varos" q="felhasznalo.varos" label="-" />	
+	<param name="cond_webshop_id" q="felhasznalo.webshop_id" label="-" />	
+	<param name="cond_fcsoport_id" q="felhasznalo.fcsoport_id" label="-" />		
+</params>
+
+<params group="ordFields">
+
+</params>
+
+</root>

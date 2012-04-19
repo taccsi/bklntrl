@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<params group="maindata">
+	<param name="id" type="hidden" default="" label="" description=""  />
+	<param name="nev" type="text" default="" label="SZERZO_NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="jogdij_jejarat_datum" type="calendar" default="" label="JOGDIJ_LEJARAT_DATUM" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+
+
+		<param name="jogtul____" type="spec" function="getJogtulajdonosok" default="" label="JOGTULAJDONOSOK" description="" mandatory="" mandatory_text=""  />
+</params>
+
+  <params group="session">
+
+  </params>
+
+  <params group="condFields">
+	<param name="cond_nev" q="szerzo.nev" label="-" />
+  </params>
+  <params group="ordFields">
+ </params>
+</root>

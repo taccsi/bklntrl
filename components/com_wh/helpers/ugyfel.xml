@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root> 
+  <params group="maindata" >
+	<param name="id" type="hidden"  />
+	<param name="tk_id" type="spec" function="getTkId"  />
+    <param name="nev" type="text" default="" label="beszallito NAME" description="" mandatory="mandatoryCheck" mandatory_text="KOTELEZO MEZO" />
+	<param name="beszallitokod" type="text" label="beszallitoKOD" function="" mandatory="checkbeszallitokod" mandatory_text="KOTELEZO MEZO" />	
+    <param name="orszag" type="text" default="" label="ORSZAG" description="" mandatory="" mandatory_text="" />
+    <param name="varos" type="text" default="" label="VAROS" description="" mandatory="" mandatory_text="" />
+    <param name="utca" type="text" default="" label="UTCA" description="" mandatory="" mandatory_text="" />
+    <param name="telefon" type="text" default="" label="TELEFON" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI" />
+    <param name="email" type="text" default="" label="EMAIL" description="" mandatory="" mandatory_text="" />
+
+    <param name="kapcs_nev" type="text" default="" label="KAPCS NEV" description="" mandatory="" mandatory_text="" />	
+    <param name="kapcs_elerh" type="textarea" default="" label="KAPCS ELERHETOSEG" description="" mandatory="" mandatory_text="" />
+    <param name="kapcs_nevnap" type="calendar" default="" label="KAPCS NEVNAP" description="" mandatory="" mandatory_text="" />
+    <param name="tipus" type="list" default="" label="TIPUS" description="" mandatory="" mandatory_text="" >
+		<option value=""></option>
+		<option value="végfelhasználó" >végfelhasználó</option>
+		<option value="viszonteladó" >viszonteladó</option>
+	</param>
+    <param name="adoszam" type="text" default="" label="ADOSZAM" description="" mandatory="" mandatory_text="" />				
+    <param name="bankszamlaszam" type="text" default="" label="BANKSZAMLASZAM" description="" mandatory="" mandatory_text="" />					
+    <param name="megjegyzes" type="textarea" default="" label="MEGJEGYZES" description="" mandatory="" mandatory_text="" />						
+  </params>	
+
+  <params group="condFields">
+  	<param name="nev" q="u.nev" label="-" />
+	<param name="varos" q="u.varos" label="-" />
+	<param name="tk" q="m.munkatars" label="-" />
+  </params>
+  <params group="ordFields">
+  </params>
+</root>

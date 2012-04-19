@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5">
+  <name>wh</name>
+  <creationDate>04-Apr-2012</creationDate>
+  <author>Fuli Szabolcs</author>
+  <authorEmail></authorEmail>
+  <authorUrl></authorUrl>
+  <copyright>Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <version>1.0.0</version>
+  <description>AprÃ³hirdetÃ©si rendszer. Powered by Mariomedia</description>
+  <installfile/>
+  <uninstallfile/>
+  <install>
+    <sql/>
+  </install>
+  <uninstall>
+    <sql/>
+  </uninstall>
+  <files folder="site">
+    <folder>assets</folder>
+    <folder>controllers</folder>
+    <folder>exports</folder>
+    <folder>helpers</folder>
+    <folder>helpers_futarszolgalat</folder>
+    <folder>language</folder>
+    <folder>models</folder>
+    <folder>tables</folder>
+    <folder>unitpl</folder>
+    <folder>uploaded</folder>
+    <folder>views</folder>
+    <filename>controller.php</filename>
+    <filename>wh.php</filename>
+  </files>
+  <languages folder="site/language">
+    <language tag="hu-HU">hu-HU/hu-HU.com_wh.ini</language>
+  </languages>
+  <administration>
+    <menu img="components/com_wh/assets/images/com_wh-16.png" link="index.php?option=com_wh">wh</menu>
+    <files folder="admin"/>
+  </administration>
+  <params/>
+  <config/>
+</install>

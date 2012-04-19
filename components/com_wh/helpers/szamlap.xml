@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<params group="maindata">
+</params>
+
+  <params group="session">
+  </params>
+
+  <params group="condFields">
+
+  </params>
+  <params group="ordFields">
+ </params>
+</root>

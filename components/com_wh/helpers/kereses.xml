@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<params group="maindata" >
+	<param name="id" type="hidden" default="" label="" description=""  />	
+	<param name="nev" type="text" default="" label="kereses NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	
+</params>
+ <params group="condFields">
+  	<param name="nev" q="gy.nev" label="-" />
+  </params>
+ <params group="ordFields">
+  	<param name="nev" q="gy.nev" label="-" />
+  </params>
+</root>

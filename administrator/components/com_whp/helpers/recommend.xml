@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root> 
+  <params group="maindata" >
+	<param name="ajanlo_nev" type="text" default="" label="AJANLO_NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />	
+	<!--<param name="ajanlo_email" type="text" default="" label="AJANLO_EMAIL" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />	-->
+	<param name="cimzett_nev" type="text" default="" label="CIMZETT_NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="cimzett_email" type="text" default="" label="CIMZETT_EMAIL" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="szoveg" type="textarea" default="" label="UZENET_SZOVEG" description="" mandatory="" mandatory_text=""  /> 	
+	<param name="__" type="submit" submitValue="ELKULD" default="" label="" mandatory="" mandatory_text="" />
+</params>
+
+
+<params group="condFields">
+    <param name="cond_nev" q="szuz.nev" label="-" />
+  </params>
+  <params group="ordFields"></params>
+  
+</root>

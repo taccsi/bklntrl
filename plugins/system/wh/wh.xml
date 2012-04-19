@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="plugin" version="1.5" group="system">
+  <name>System - wh</name>
+  <creationDate>03-Apr-2012</creationDate>
+  <author></author>
+  <authorEmail></authorEmail>
+  <authorUrl></authorUrl>
+  <copyright></copyright>
+  <license></license>
+  <version>1.0</version>
+  <description></description>
+  <files folder="site">
+    <filename plugin="wh">wh.php</filename>
+    <filename>wh_CHANGELOG.php</filename>
+  </files>
+  <params/>
+  <config/>
+</install>

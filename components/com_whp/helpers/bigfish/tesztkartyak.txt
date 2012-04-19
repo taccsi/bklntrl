@@ -1,0 +1,94 @@
+Teszteleshez az alabbi adatok hasznalhatok:
+
+CIB Bank
+
+Sikeres fizetes:
+Kartyaszam: 5111 1111 1111 1111
+Lejarati ido: barmi
+CVC: 111
+
+Sikertelen fizetes:
+Kartyaszam: 4999 9999 9999 9999
+Lejarati ido: barmi
+CVC: nem kell
+
+--------------------------------------------------------------------------------
+
+K&H Bank
+
+Sikeres fizetes:
+Kartyaszam: 4550 5225 9830 5372
+Lejarati ido: 2003/11
+CVV2: 271
+
+Sikertelen fizetes:
+Kartyaszam: 4205 7925 0786 4590
+Lejarati ido: 2006/10
+CVV2: 106
+
+--------------------------------------------------------------------------------
+
+OTP Bank
+
+Sikeres fizetes:
+Kartyaszam: 5016 2533 9900 0013
+Lejarati ido: 04/04
+CVC2: 111
+
+Sikertelen fizetes:
+Kartyaszam: 1111 1111 1111 1117
+Lejarati ido: 04/04
+CVC2: 111
+
+--------------------------------------------------------------------------------
+
+Abaqoos
+
+Felhasznalo: BIGFISH
+Jelszo: 123456
+
+--------------------------------------------------------------------------------
+
+PayPal
+
+Mielott a PayPal fizetest teszteled, jelentkezz be az alabbi adatokkal a bongeszod kulon tab-jan:
+https://developer.paypal.com/
+E-mail address: dev@bigfish.hu
+Jelszó: bfpaypaldev
+
+Vevő e-mail: buyer_1264842853_per@bigfish.hu
+Jelszó: bfppbuyer
+
+--------------------------------------------------------------------------------
+
+MobilFizetes:
+SIKERES:
+36109000000 (Sikeres tranzakcio (bankszamlara terhelve))
+900000000 (Teljes es hibatlan koveteles-kezdemenyezes kuldese teszt MFA-val)
+
+SIKERTELEN:
+900001000 (Ismeretlen MFA-val kezdemenyezett koveteles )
+36109002000 (Ismeretlen MSISDN-nel kezdemenyezett koveteles)
+36109003000 (Koveteles-kezdemenyezes Banki hatterrendszer elerhetetlensege eseten)
+36109004000 (Az Ugyfel nincs aktivalva a Mobil Fizetes szolgaltatasban)
+36109005000 (Az Ugyfel fizetoeszkozenek hianya miatt elutasitott koveteles-kezdemenyezes (nincs installalt MPI))
+36109000101 (Elutasitas beazonosithatatlan ugyfel miatt)
+36109000102 (Regisztralt fizetoeszkozzel nem rendelkezo Ugyfel miatt elutasitas)
+36109000103 (Aktiv fizetoeszkozzel nem rendelkezo Ugyfel miatt elutasitott tranzakcio)
+36109000105 (Kezbesithetetlen Ugyfel Megerosites keres miatt elutasitott tranzakcio)
+36109000110 (Ugyfel elutasitasa miatt meghiusult tranzakcio)
+36109000112 (Megvaltozott fizetoeszkoz miatt elutasitott tranzakcio)
+36109000113 (Inaktivva valt fizetoeszkoz miatt elutasitott tranzakcio)
+36109000114 (Megvaltozott Kereskedoi regisztracio miatt elerhetetlenne valt Kereskedoi Virtualis Terminal adatok)
+36109000116 (Lejarati idon belul Ugyfel Megerosites keresre valasz nem erkezett)
+36109000140 (Nem azonosithato Kereskedoi Virtualis Terminal)
+36109000161 (Banki engedelyezes funkcioja nem elerheto)
+36109000163 (Bank altal nem azonosithato ugyfel)
+36109000164 (Kereskedo sikertelen Banki beazonositasa miatt elutasitott kezdemenyezes)
+36109000165 (Nem hitelesitheto fizetoeszkoz miatt elutasitott kezdemenyezes)
+36109000166 (Elegtelen ugyfelegyenleg miatt elutasitott tranzakcio)
+36109000174 (Terheles kezdemenyezese ota valtozas tortent, ezert a fizetoeszkoz nem beazonosithato)
+36109000203 (Egyeb okbol elutasitott terheles)
+36109000154 (Fizetoeszkoz sikertelen Banki hitelesitese miatt elutasitott terheles)
+36109010000 (Sikeres tranzakcio (bankkartyara terhelve))
+36109020000 (Sikeres tranzakcio (lassu ugyfel reakcio miatt kesleltetett ertesito))

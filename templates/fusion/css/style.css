@@ -1,0 +1,1550 @@
+#ajaxContentKapcsolodTermekek, #ajaxContentKiegTermekek{ margin:0 0 0 180px}
+.span_cimke_kategoria{ color:#F00}
+#cimke_kategoria_id{ height:150px}
+th.UZENET{ width:300px}
+#div_parameterek_ .cimke{ text-align:right; font-weight:bold}
+#div_parameterek_ td{ padding:3px 5px 3px 0}
+#div_parameterek_ th{ display:none}
+#div_parameterek_ .PARAM_SORREND{ width:100px!important}
+#div_parameterek_ input{ width:80px!important }
+.rendeles_tetelek, .div_rendeles table table {  border-collapse: collapse; }
+.rendeles_tetelek td, .div_rendeles table table td { border: 1px solid #d7d7d7!important; padding: 2px; padding-right:5px;}
+
+#besz_afa_beszallito_ar{ width:45px!important}
+.kategoria_id_webshop{ width:150px!important}
+input.aktiv{ width:20px!important }
+.PUBLIKUS_KEP{ width:20px!important }
+td.SORREND, .SORREND_HIDDEN{ width:60px!important; }
+#ajaxContentParameterLista{ overflow:auto; width:750px; /* height:500px */}
+
+.KISKERAR th{ /*display: none;*/ width:90px; text-align:right!important}
+
+
+.admintable {border: none;}
+table table {border: none;}
+
+.adminlist {border-collapse: collapse;}
+.adminlist td, .adminlist th {border: 1px solid #d7d7d7;}
+.adminlist table td, .adminlist table th, .admintable table th, .admintable table td {border: none;}
+
+/*hoverek*/
+.admintable tr:hover td, .adminlist tr:hover td, .table_kimutatas table tr:hover td {background-color: #dce5fa;}
+
+.div_beallitas tr:hover td, .div_kampanyok table tr:hover td, .div_rendeles table tr:hover td{background: none;}
+
+
+.span_error{ color:#F00}.logo_fusion {padding-left: 5px; line-height: 32px; font-size: 18px; color: #ffffff; text-decoration: none; display: block; float: left;}.logo_fusion:hover {text-decoration: none; color: #ffffff;}.logo_fusion img {vertical-align: bottom;}.logo_trifid {	display: block;	float: right;	background: url("../images/logo_trifid.png");	background-repeat: no-repeat;	background-position: top left;	width: 218px;	height: 32px;	text-decoration: none;}
+#effect{ 
+	/*position:absolute; */
+	width:100%;
+	top: 0px;
+	left: 0px;
+}
+#effect_inner{
+	background: url("../images/bg_systemmessage_fbblue.png") repeat-x;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #ffffff;
+	/* for IE */
+ 	filter:alpha(opacity=90);
+	/* CSS3 standard */
+	opacity:0.9;
+}
+#system-message dt {display: none;} 
+
+.moduletable_proj{ padding:5px 10px 0 0; float:right}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-spacing: 0px;
+}
+table td {
+	border-spacing: 0px;
+}
+table tr {
+	border-spacing: 0px;
+}
+
+/* keret */
+
+
+#wrapper {}#body-outer {position: relative;}
+#left {	position: absolute; 	top: 5px; 	left: 5px; 	width: 200px; }#left > div {	border: 1px solid #a4a4a4;	border-radius: 4px;	-moz-border-radius: 4px;	-webkit-border-radius: 4px;	background-color: #F4F4F4;	margin-bottom: 6px;}#left h3 {padding: 5px; 15px; background-color: #4B4B4B; color: #ffffff;}#right {margin-left: 205px;}
+.body_wr1 {padding-left: 5px;}
+.body_wr2 {padding-right: 5px;}
+
+#body {
+	width: 100%;
+	overflow: hidden;
+}
+
+#nav-main {
+	background-color:#4B4B4B;	overflow: hidden;
+}
+
+
+#content {
+	padding: 10px 45px 52px 15px;
+}
+#content .inner {
+	padding: 0px 20px 20px 20px;
+	
+}
+
+
+/*tartalom*/
+
+body {
+	background-color: #e0e0e0;
+	background: url("../images/bg_bg.png");
+	font-family:  "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #454545;
+	font-size: 12px;
+}
+
+h1, .contentheading, .componentheading {
+	/*font-size: 24px;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding-bottom: 25px;*/
+	padding: 2px 0px 10px 0px;
+	font-size: 18px;
+	font-weight: normal;
+	
+}
+h2 {
+	padding-top: 2px;
+	padding-bottom: 10px; 
+	font-size: 18px;
+	font-weight: normal;
+}
+
+#content p {
+	line-height: 140%;
+	margin-bottom: 11pt; letter-spacing:1px;
+}
+#content a {color: #454545;}
+#content a:hover {text-decoration: none;}
+
+.clr {clear: both;}
+
+/* menu */
+.moduletable_menu {}
+	.moduletable_menu ul {}
+		.moduletable_menu > ul > li {border-top: 1px solid #a4a4a4;}		.moduletable_menu  ul ul li {border-top: 1px solid #d7d7d7;}
+		.moduletable_menu li a {
+			display: block; 
+			height: 24px;
+			line-height: 24px;
+			text-transform: uppercase;
+			padding: 0px 10px;
+			text-decoration: none;			text-align: left;			text-decoration: none;
+		}
+		.moduletable_menu li a:hover, .moduletable_menu .current > a {
+			color: #000000;
+			background-color: #c5c5c5;			text-decoration: none;
+		}
+		.moduletable_menu li li a {
+			text-decoration: none;
+			text-transform: uppercase;
+			color: #454545;			display: block; 			padding-left: 15px;
+		}		.moduletable_menu li li li a {			padding-left: 30px;		}
+		
+
+.moduletable_usxnavi {margin-left: 165px;}
+	.moduletable_usxnavi ul {overflow: hidden;}
+		.moduletable_usxnavi li {
+			float: left;
+			padding-right: 10px;
+		}
+			.moduletable_usxnavi li a {
+				text-decoration: none;
+				color: #ffffff;
+				font-size: 14px;
+				line-height: 30px;
+			}
+			.moduletable_usxnavi li a:hover {text-decoration: underline;}
+		
+/*modulok*/
+
+.moduletable_10p {margin-bottom: 1px;}
+
+.moduletable_facebookinfos {
+	position: relative;
+}
+	.moduletable_facebookinfos .fblink {
+		position: absolute;
+		width: 147px;
+		height: 37px;
+		top: -1px;
+		right: 0px;
+		text-decoration: none;
+		background: url("../images/logo_facebook.png") no-repeat;
+	}
+	
+
+div.like{float:left; margin:-50px 0px 0px 144px;}
+
+.moduletable_yt .list_image{ float:left; display:inline; }
+.moduletable_yt .list_image img{ width:100px; padding:2px; border:1px solid #ccc; margin-right:6px;}
+.moduletable_yt .list_text{ float:left; display:inline;width:178px; font-size:11px;}
+.moduletable_yt .list_item{overflow:hidden;  margin:0px 5px 10px 5px;}
+.moduletable_yt{ margin-bottom:20px; }
+
+/*USX*/
+.loginForm {
+	padding-bottom: 40px;
+	background: url("../images/bg_login.png") no-repeat bottom right;
+	width: 380px;
+	margin-bottom: 30px;
+}
+.loginForm .btn_userreg {
+	width: 174px;
+	height: 32px;
+	line-height: 30px; 
+	margin-left: 122px;
+	border: none; 
+	background: url("../images/bg_loginbtn.png") no-repeat;
+	color: #3b5998;
+	cursor: pointer;
+	font-size: 14px;
+
+}
+.loginForm td {padding-bottom: 0px; padding-top: 8px;}
+.loginForm .key {width: 100px; padding-right: 10px; vertical-align: middle;}
+
+
+
+
+.adminForm_regAdatok td {padding: 8px 10px 0px 0px; vertical-align: middle;}
+.adminForm_regAdatok {}
+	.adminForm_regAdatok .key {width: 140px;}
+	.adminForm_regAdatok input, .loginForm input {
+		width: 195px;
+		height: 20px; 
+		border: 1px solid #d7d7d7; padding-left:5px;
+	}
+.adminForm_regAdatok .btn_userreg {
+	width: 174px;
+	height: 32px;
+	line-height: 30px; 
+	margin-left: 160px;
+	border: none; 
+	background: url("../images/bg_loginbtn.png") no-repeat;
+	color: #3b5998;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.ul_wh_menu {overflow: hidden; float: right;}
+	.ul_wh_menu li {float: left;}
+		.ul_wh_menu li a {}
+
+.gyugy-form {}
+	.gyugy-form #nev {border: 1px solid #d7d7d7; width: 450px; padding: 0px;}
+#adminForm #leiras{ height:300px;}
+	.gyugy-form #leiras, .gyugy-form #megjegyzes {border: 1px solid #d7d7d7; width: 460px; height: 60px;}
+	.uzenetlista #text {border: 1px solid #d7d7d7; width: 452px; height: 60px;}
+	
+	.gyugy-form #kezelo_user_id,
+	.gyugy-form #statusz,
+	.gyugy-form #projekt_id {width: 150px; border: 1px solid #d7d7d7;}
+	.gyugy-form #idotartam {width: 148px; border: 1px solid #d7d7d7;}
+	
+	.gyugy-form .key, .div_uzenetform .key {width: 80px;}
+	
+	.gyugy-form .mce_editable, .gyugy-form #leiras_tbl {width: 452px!important;}
+	.gyugy-form .button2-left {padding-top: 8px; padding-bottom: 10px;}
+	
+	
+	
+	
+
+	
+.projektIdok {
+	border: 1px solid #d7d7d7;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin-top: 5px;
+}	
+	.projektIdok .CHECKED {padding: 0px;}
+	.projektIdok th {padding: 5px; text-align:left}
+	.projektIdok tr td {background-color: #f4f4f4; padding: 5px; /*vertical-align:middle*/}
+	.projektIdok .row1 td {background-color: #ffffff;}
+	.projektIdok .row2 td {background-color: #f4f4f4;}
+	.projektIdok .list-footer {text-align: center;}
+	
+
+.div_keretes {
+	border: 1px solid #d7d7d7;
+	width: 548px;
+	background-color: #f4f4f4;
+	margin-bottom: 5px;
+	overflow: hidden;
+	padding: 10px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.kapcsuzi {margin-top:15px;}
+.div_search {
+	border: 1px solid #d7d7d7;
+	
+	background-color: #f4f4f4;
+	margin-bottom: 5px;
+	overflow: hidden;
+	padding: 5px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+	.table_search #cond_id {
+		width: 40px;
+		border: 1px solid #d7d7d7;
+		
+	}
+	.table_search #cond_nev,.table_search select {
+		width: 80px;
+		border: 1px solid #d7d7d7;
+		
+	}
+	
+.flash-container {
+	position: relative;
+	
+	margin-top: 14px;
+}
+.flash-inner {
+	
+	/*
+	padding-bottom: 25px;
+	padding-right: 25px;
+	
+	
+	background: url("../images/bg_fileupload.png") no-repeat bottom right;*/
+}
+
+div.UJ{
+	background-image: url(../images/bg_uj.png);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+div.MEGOLDVA{
+	background-image: url(../images/bg_megoldva.png);
+	background-repeat: repeat-y;  
+	
+	background-position: center top;}
+div.VISSZAUTASITVA{
+	background-image: url(../images/bg_fuggoben.png);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+div.VISSZAIGAZOLASRA_VAR{
+	background-image: url(../images/bg_visszaigazolva.png);
+	background-repeat: repeat-y;
+	background-position: center top;
+
+}
+
+.STATUSZ div{ text-align:center; padding:2px;}
+
+/*uzenetek*/
+.item {overflow: hidden; margin-bottom: 15px;}
+
+.div_bubi {width: 330px;}
+.div_bubi_bal {float: left;}
+.div_bubi_bal .top {
+	height: 5px; 
+	font-size: 0px;
+	line-height: 5px;
+	background: url("../images/bubi_top.png") no-repeat;
+}
+.div_bubi_bal .middle {
+	background: url("../images/bubi_middle.png") repeat-y;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.div_bubi_bal .bottom {
+	padding-top: 4px;
+	overflow: hidden;
+	height: 15px;
+	background: url("../images/bubi_also.png") no-repeat;
+}
+
+.div_bubi_jobb {float: right;}
+.div_bubi_jobb .top {
+	height: 5px; 
+	font-size: 0px;
+	line-height: 5px;
+	background: url("../images/bubi_top.png") no-repeat;}
+.div_bubi_jobb .middle {
+	background: url("../images/bubi_middle.png") repeat-y;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.div_bubi_jobb .bottom {
+	padding-top: 4px;
+	overflow: hidden;
+	height: 15px;
+	background: url("../images/bubi_also.png") no-repeat;
+}
+
+.bottom_wr {
+	width: 153px;
+	float: right;
+	font-size: 10px; 
+	color: #ffffff;
+}
+.bottom_date {
+	width: 105px;
+	float: left;
+}
+.bottom_torol {
+	width: 41px;
+	float: left;
+}
+.div_bubi .nev {
+	color: #3b5998;
+	font-weight: bold;
+	padding-left: 15px;
+}
+.div_bubi_bal .nev {
+	color: #093;
+}
+.td_lapozo{ text-align:center;}
+	.td_lapozo a {font-weight: bold;}
+
+.paramlist_value .statusz {text-align: center;}
+.paramlist .key {padding-right: 10px;}
+.table_kapcsolo {margin-top: 5px; }
+.table_kapcsolo td {padding-right: 10px; vertical-align: top;}
+.table_kapcsolo td td {padding-right: 5px;}
+
+.adminForm_regAdatok .key, .loginForm .key {text-align: right;}
+
+.bottom_torol input{ background:none; border:none; font-size:9px; padding:0px; color:#fff;}
+
+
+
+.pickpacklist {border: none!important;}
+.pickpacklist td { font-size:11px; line-height:120%; height:auto; vertical-align:middle;  border: none!important;}
+.pickpacklist th{font-size:11px; line-height:120%; white-space:nowrap;height:auto;vertical-align:middle;padding-right:10px; border: none!important;}
+.ul_wh_menu .wide {background-image:url("../../../components/com_wh/assets/images/bg_uj_gomb_wide.png")!important;}
+
+.td_tomeges_ev, .td_tomeges_honap { background-color: #dadada; }
+.td_tomeges_mail {padding-left:10px!important;}
+.table_tomeges td{ padding:5px;}
+.table_tomeges{ margin:10px; border: 2px solid #D2D1D2; }
+
+th.JUTALEK, td.JUTALEK{ text-align:right!important}
+.td_mindosszesen{ text-align:right; padding:0 10px 0 0}
+.span_tulhanyad{ width:30px}
+.span_cim{ width:100px; display:block; float:left; text-align:right}
+.cim{ margin:0 10px 10px 5px!important; width:180px}
+.input_tolig{ width:90px}
+.MINDENT_KIJELOL_AKTIV{ background:#FCBDBD}
+.MINDENT_KIJELOL_MEGVASROLHATO{ background:#6BA2E4}
+.ul_jogok{ margin:0 0 0 20px!important}
+.ul_jogok ul{ margin:0 0 0 0px!important}
+.ALLAPOT{ font-size:10px}
+.GYARISZAM input{ width:80px}
+.szulo_termek_id{ font-weight:bold; }
+.table_bub{ }
+
+.MASOLAT{ background-color:#0FF}
+.TOROLT{ background-color:#C09}
+.SIKERES_RENDELES{ background-color:#0F0 }
+.SZALLITAS_VEVO_HIBAJABOL_SIKERTELEN{ background-color:#F0F}
+.VISSZAIGAZOLVA_SZALLITAS_NEM_LEHETSEGES{ background-color:#CCC}
+.HIBAS_RENDELES_NINCS_VISSZAIGAZOLVA{ background-color:#000}
+.SZALLITASRA_VAR{ background-color:#CF6}
+.UGYFEL_VAR_A_TERMEKRE{ background-color:#669}
+.ELOLEGRE_VARUNK{ background-color:#CCC}
+.UGYFEL_DONTESERE_VARUNK{ background-color:#0C9}
+.VARJUK_AZ_ARU_ERKEZESET{ background-color:#03F}
+.VISSZAIGAZOLASRA_VAR{ background-color:#FC3 }
+.NINCSBESZLISTABAN{ background-color:#f00 }
+.BESZLISTABAN{ background-color: #066 }
+.a_allapot{ float:left; display:block; width:20px; height:20px; margin:0 4px 0 0; 
+}
+.a_allapot:hover{ text-decoration:none}
+.KONKURENCIA_, .TERMEK_{ width:350px!important}
+.AR_, .URL_{ width: 100px!important }
+
+td.MEGRENDELEVE_DATUM, td.BEERKEZETT_DATUM, td.BESZALLITONAK_FIZETVE_DATUM{ width:100px}
+.input_datum_tetel{ width:75px}
+td.GYARISZAM textarea{ width:100px}
+td.TOMEG_KG input{ width:34px;}
+.sajat_megjegyzes_{ background-color: #E2F9FF}
+.varsorrend{ width:20px}
+.liusta_th, .lista_td{ padding:1px 10px 1px 0px}
+td.PARAMETEREK{ font-size:10px;}
+td.BESZALLITO input, td.BESZALLITO select, td.KISKER_AR input{ width:100px; }
+
+.paramlist_value td.DB input{ width:30px;}
+.table_kimutatas table td, .table_kimutatas table th{ padding:3px 4px}
+.table_kimutatas table{ }
+table.table_kimutatas{ width:100%}
+.formMove li{ padding:3px; margin:5px 0 0 60px}
+.formMove h1{margin:0px 0 0 30px}
+.ar_zold input{  background-color:#0F0}
+.ar_sarga input{ background-color:#FF0}
+.ar_piros input{ background-color:#F00}
+input.arazas_kapcsolo{ width:10px!important}
+.pane-sliders .title {
+	margin: 0;
+	padding: 2px;
+	color: #666;
+	cursor: pointer;
+}
+
+.pane-sliders .panel   { border: 1px solid #ccc; margin-bottom: 3px;}
+
+.pane-sliders .panel h3 { background: #f6f6f6; color: #666}
+
+.pane-sliders .content { background: #f6f6f6; }
+
+.pane-sliders .adminlist     { border: 0 none; }
+.pane-sliders .adminlist td  { border: 0 none; }
+
+.jpane-toggler  span     { background: transparent url(../images/j_arrow.png) 5px 50% no-repeat; padding-left: 20px;}
+.jpane-toggler-down span { background: transparent url(../images/j_arrow_down.png) 5px 50% no-repeat; padding-left: 20px;}
+
+.jpane-toggler-down {  border-bottom: 1px solid #ccc; }
+
+/* tabs */
+
+
+
+dl.tabs {
+	float: left;
+	margin: 0px 0 -1px 0;
+	z-index: 50;
+}
+
+dl.tabs dt {
+	float: left;
+	padding: 4px 10px;
+	border-left: 1px solid #595959;
+	border-right: 1px solid #595959;
+	border-top: 1px solid #595959;
+	
+	margin-right: 3px;
+	background: url("../images/bg_infodoboz.png") repeat-x scroll 0 0 transparent;
+	color: #595959;
+}
+
+dl.tabs dt.open {
+	background: url("../images/bg_kereso.png") repeat-x scroll 0 0 transparent;
+	border-left: 1px solid #595959;
+	border-right: 1px solid #595959;
+	border-top: 1px solid #595959;
+	z-index: 100;
+	color: #000;
+}
+
+div.current {
+}
+
+div.current dd {
+	padding: 0;
+	margin: 0;
+}
+
+
+table.alert td{ background-color:#FCBDBD!important; }
+
+table.kislista td{ /*background-color: #D2F5B0;*/}
+
+.CHECKED { text-align:center;}
+th.CHECKED {border: none;}
+.KEZDOKEP{  text-align:center}
+.termekimg img{margin-left: 10px; margin-right: 10px;}
+.egyszeru span {display: block; margin-bottom: 2px;}
+.BESZALLITO_ARAZAS .cim {font-size: 10px; margin-bottom: 2px;}
+.BESZALLITO_ARAZAS .input {margin-bottom: 10px;}
+.KONKURENCIA .span_egyszeru0, .BESZALLITO_ARAZAS .span_egyszeru0{font-size: 10px;}
+.lista_td{ border-right:0;  }
+.lista_td td{ border:none}
+
+
+.table_search{
+	height: 36px; float:left; 
+}
+
+
+.table_search1 span, .table_search1 input, .table_search1 select, .table_search span, .table_search input, .table_search select{ margin:0px 3px 0px 0px;  }
+
+
+
+
+#arazas_netto_ar, #arazas_brutto_ar, #arazas_szazalek{
+	background-color:#ffffff;
+	border:1px solid #D7D7D7;
+	width: 40px;
+}
+#cond_nev, #cond_leiras{
+	width: 96px;
+	background-color:#ffffff;
+	border:1px solid #D7D7D7;
+}
+
+#cond_atvhely_id, #cond_afa_id, #cond_kampany_id, #cond_kategoria_id, #cond_beszallito_id, #cond_specialis_szures, #cond_gyarto_id, #cond_allapot, #cond_webshop_id, #cond_kiszallito_id, #cond_szallitas{
+	width: 100px;
+	background-color:#ffffff;
+	border:1px solid #D7D7D7;
+}
+
+.table_search td input, .table_search td select, .table_search1 td input, .table_search1 td select,{
+	background-color:#ffffff;
+} 
+.table_search td select, .table_search1 td select{
+	width: 100px;
+}
+.adminlist table td{padding: 0px;}
+th.HIDDEN, th.HIDDEN2{ display:none}
+.lista_ar, .lista_ar input{ width:100px}
+
+.beszlista{
+	border: 1px solid #999999;
+}
+
+.besztabla{
+	border: 1px solid #999999;
+	border-collapse: collapse;
+}
+
+.termek_arak{
+	height: 20px;
+	padding: 2px 5px 2px 5px;
+}
+
+.td_mindosszesen{
+	background-color:#F7F2EB;
+	height:20px;
+	font-weight:bold;
+	text-align: right;
+}
+.arid{
+	display:none;
+}
+.td_mindosszesen2{
+	background-color:#F7F2EB;
+	height: 20px;
+	font-weight: bold;
+	text-align: right;
+}
+.kosar_helyzet{
+	padding-left: 10px;
+}
+.kosar_table{
+ 	border-collapse: collapse;
+ 	border: 1px solid #8B3B40;
+ 	width: 508px;
+ 	text-align: center;
+}
+.kosar_termeknev_th{
+	background-color:#F7F2EB;
+	padding-left: 3px;
+	padding-right: 3px;
+	height: 20px;
+}
+.kosar_tobbi_th{
+	background-color:#F7F2EB;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.kosar_termek_fels{
+	vertical-align: middle;
+	min-height:30px;
+	text-align:left;
+	padding-left: 3px;
+}
+.kosar_tobbi_fels{
+	vertical-align: middle;
+	padding-right: 3px;
+	min-height:30px;
+}
+.mezo_nev{
+	float: left;
+	width: 150px;
+}
+.nem_engedelyez{
+	color:#FF0000;
+}
+.engedelyez{
+	color:#33CC00;
+}
+.aktTermek{
+	color: #CC0000;
+	font-weight:bold;
+}
+.cimke_{
+	width: 430px;
+	height: 300px;
+}
+.mezo_tipus{
+	float: left;
+	width: 300px;
+}
+.kereso_szo_, .nev_{
+width: 450px;
+}
+.CHECKED{
+	width: 25px;
+}
+
+
+
+
+
+.adminlist {
+	border: 1px solid #d7d7d7;
+	width: 100%;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-color: #f4f4f4;
+}	
+	.adminlist .CHECKED {padding: 0px;}
+	.adminlist td {}
+	.adminlist .UGYIDO, .adminlist .HIDDEN1{}
+	.adminlist .td_lapozo {border-top: 1px solid #d7d7d7; border-right: 0px;}
+	.adminlist th {padding: 5px; text-align:left}
+	.adminlist tr td {background-color: #f4f4f4; padding: 5px;  vertical-align:middle;}
+	.adminlist .row1 td {background-color: #ffffff; }
+	.adminlist .row2 td {background-color: #f4f4f4; }
+	.adminlist td .row1 td{background-color: #ffffff!important; }
+	.adminlist td .row2 td {background-color: #f4f4f4; }
+	
+	.adminlist .list-footer {text-align: center;}
+	.adminlist a {color: #454545;}
+	.adminlist a:hover {text-decoration: none;}
+
+	.adminlist table{
+		
+		width: 100%;
+		
+	}	
+
+
+.key{
+	vertical-align: top!important;
+	width: 140px;
+	/*border-bottom: 1px solid #CCCCCC; */
+	padding:5px 10px; font-weight:bold; vertical-align:top; color:#333;font-size:13px; text-align:right;
+}
+.admintable{
+	border-collapse: collapse;
+	width: 100%;
+}
+.paramlist_value{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/* border-bottom: 1px solid #CCCCCC; */
+}
+.lapozo{
+	height: 40px;
+	text-align:center;
+	vertical-align:middle;
+}
+.kereso{
+	height: 20px;
+}
+.termek_nev_kiir{
+padding: 20px 0px 20px 20px;
+}
+.termek_kep_elhelyez{
+margin: 5px 5px 5px 5px;
+}
+.termek_td{
+	vertical-align:middle;
+}
+.listakep{ 
+	width:80px;
+	border: 1px solid #666666;
+}
+th{
+height: 20px;
+}
+
+
+
+.floatleft{ float:left}
+.clr{ clear:both}
+
+
+a{
+text-decoration: none;
+font-weight: normal;
+color:#000000;
+}
+a:hover{
+color:#333333;
+text-decoration: underline;
+}
+
+.div_wh_top_holder{
+	border: 1px solid #d7d7d7;
+	background-color: #f4f4f4;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	padding: 2px 5px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+
+}
+	.div_wh_top_holder h3 {	
+		float: left;
+		font-size: 14px;
+		color:#536BA7;
+		font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
+		
+	}
+	.div_wh_topmenu{
+		
+		float: right; 
+		padding-top: 1px;	
+	}
+
+	.ul_wh_menu {
+	 	float: right;
+	 	
+	}
+		.ul_wh_menu .li_wh_item {
+					float:left;
+					text-align: center;
+					font-family:Verdana, Arial, Helvetica, sans-serif;
+					margin-left: 5px;
+					display: inline;
+					width: 68px;
+					
+					line-height: 15px;
+					font-size:10px;
+					
+		}
+		
+		.ul_wh_menu .wide {
+					
+					width: 120px;
+					
+		}
+		
+		.ul_wh_menu .li_wh_item a {
+			display: block;
+			padding: 0px 5px;
+			color: #595959;
+			
+		}
+		.ul_wh_menu .li_wh_item a:hover {
+			border: 0;
+			color: #595959;
+			text-decoration: none;			
+			
+		}
+	
+.div_wh_clear{
+	
+	clear: both;
+	width: 100%;
+	line-height: 0px;
+	height: 0px;
+}
+
+
+
+
+#header .moduletable_menu ul.menu{
+									overflow: hidden;
+									margin: 0px;
+									height: 21px;
+                                  }
+
+
+#header .moduletable_menu ul.menu li{
+                                 	    float: left; display: inline;
+	                                    height:21px;
+                                        border-bottom:1px solid #E333;
+										/*width: 96px;*/
+                                     }
+									  
+									  
+#header .moduletable_menu ul.menu li a{
+                                          text-align: center;
+								 	 	  height:21px; 
+								 		  display:block; 
+										  
+										  color: #595959;
+										  /*background-color: #FFFCF4;*/
+										  font:10px/20px Arial, Helvetica, sans-serif; 
+										  text-transform:uppercase; 
+										  text-decoration:none; 
+										 padding-left:10px; padding-right:10px;
+										  padding-top: 1px;
+									   }
+										
+#header .moduletable_menu ul.menu li a:hover{
+                                                background:url(../images/bg_felsomenu_gomb.png) no-repeat;
+												background-color: #ccaaa9;
+												color:#595959; 
+												text-decoration:none;
+												/*width: 75px;*/
+											 }
+											  
+#header .moduletable_menu ul.menu li#current__ a{
+                                                  
+											      height:21px; 
+											      background:url(../images/bg_felsomenu_gomb.png) no-repeat;
+												  background-color: #ccaaa9; 
+											      color:#595959; 
+											      text-decoration:none; 
+											      font:10px/20px Arial, Helvetica, sans-serif; 
+											      text-transform:uppercase;
+												  padding-top: 1px;
+											    	 /*width: 75px;*/
+										       }
+
+/*üzenet*/
+#system-message {
+	border: 0; overflow: hidden; 
+	padding: 5px 10px;
+	background-color: #3b5998;
+	color: #ffffff;
+}
+#system-message dt{float: left; font-weight: bold;}
+#system-message dd{float: left;}
+#system-message ul {margin: 0px;}
+	
+	
+	
+#main{			border-left:1px solid #969696;
+			border-right:1px solid #969696;
+}
+#main div{
+	text-align: left;
+}
+	#main #adminForm {																					/*Tartalom*/
+		/*background:#FFFCF4; */
+			
+		}	 
+		#main #adminForm hr {
+			color: #E3DDCD;
+			background-color: #E3DDCD;
+			border: none;
+			height: 1px;
+			margin: 0; padding: 0; visibility:hidden;
+		 }
+		#main .noborderForm { border: none!important; padding: 0!important; } 
+div#main_clear{ 
+	clear: both;
+	width: 100%;
+	line-height: 0px;
+	height: 0px;
+}
+
+#footermainPan{ 
+				background: #FFFCF4; 
+				color:#010101; 
+				clear:both; 
+				height: 21px;
+				/*position:relative;*/
+				border:1px solid #969696; 
+				font-size: 10px;
+				background: url(../images/bg_infodoboz.png) repeat-x;
+			   }
+	#footermainPan .moduletable {	
+		text-align: center;
+		
+	}
+#footermainPan .moduletable_footer{
+                                    width:1100px;
+	                                /*position:relative;*/
+	                                margin:0 auto;
+  	                                font-family:Arial, Helvetica, sans-serif;
+                                   }
+
+#footermainPan .moduletable_footer ul{
+	width:450;
+	height:20px;
+	/*position:relative;*/
+	margin:0 auto;
+	text-align: center;
+}
+#footermainPan .moduletable_footer li{float:left; }
+#footermainPan .moduletable_footer ul li a{padding:0 10px 0; color:#333; background:#FFFCF4; text-decoration:none; font-size:12px;}
+#footermainPan .moduletable_footer ul li a:hover{text-decoration:underline;}
+
+#footermainPan .moduletable_footer p.copyright{
+	width:1100;
+	/*position:relative;*/
+	margin:0px;
+	color:#010000;
+	font-size:11px;
+	text-align: right;
+}
+
+#footermainPan .moduletable_footer ul.templateworld{
+	width:128px;
+	color:#444;
+	display:block;
+	position:absolute;
+	top:41px;
+	left:911px;
+	font-size:10px;
+}
+#footermainPan .moduletable_footer ul.templateworld li{height:20px;}
+#footermainPan .moduletable_footer ul.templateworld li a{background:#FFFCF4; display:block; color:#444; text-decoration:none;}
+#footermainPan .moduletable_footer ul.templateworld li a:hover{text-decoration:underline;}
+
+#footerPanhtml{width:60px; height:18px; display:block; position:absolute; top:40px; left:320px;}
+#footerPanhtml a{width:58px; height:18px; display:block; background:#CC0000; color:#fff; line-height:18px; font-size:11px; font-weight:bold; text-align:center; text-decoration:none;}
+#footerPanhtml a:hover{background:#333; color:#fff;}
+
+#footerPancss{width:48px; height:18px; display:block; position:absolute; top:40px; left:380px;}
+#footerPancss a{width:48px; height:18px; display:block; background:#333; color:#fff; line-height:18px; font-size:11px; font-weight:bold; text-decoration:none; text-transform:uppercase; text-align:center;}
+#footerPancss a:hover{background:#CC0000; color:#fff;}
+
+/*Gábor*/
+.webholding-cim{
+margin-top: 0px;
+text-align: center;
+font-family: Helvetica, sans-serif;
+font-size: 20px;
+color: #EF0000;
+}
+.webholding-cim-admin{
+margin-top: 0px;
+margin-right: 5px;
+margin-bottom: 10px;
+text-align: right;
+font-family: Helvetica, sans-serif;
+font-size: 16px;
+}
+
+div#content-container{
+	margin-bottom: 20px;
+	width: 100%;
+}
+.sel-bal{
+	float: left;
+	width: 300px;
+	padding-left:5px; 
+	padding-top:5px;
+	
+}
+.sel-jobb{
+	float:left;
+	width: 400px;
+	padding-left:5px; 
+	padding-top:5px;
+}
+div#clear { 
+	clear: both;
+	width: 100%;
+	line-height: 0px;
+	height: 0px;
+}
+.sel-cimek{
+/*background-color:#cb2206;*/
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+
+padding-top:5px;
+padding-bottom:5px;
+}
+.sel-content{
+font-family: Arial, Helvetica, sans-serif;
+font-weight:bold;
+font-size: 14px;
+padding-left:5px; 
+padding-top:5px;
+padding-right:5px;
+padding-bottom:5px;
+}
+.kateg-felsorolas{
+padding-left: 25px;
+padding-top: 5px;
+font-weight: normal;
+}
+.uzenet{
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 250px;
+height: 40px;
+margin-top:5px;
+margin-left:5px;
+}
+.table_name{
+	text-decoration: underline;
+	font-family: "Courier New", Courier, monospace;
+	font-style: italic;
+	font-size: 20px;
+}
+.import_table{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+ul{
+
+}
+.pagination{
+	margin: 3px 3px 3px 3px; 
+}
+.pagenav{
+	margin: 3px 3px 3px 2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#333333;
+}
+.zoomTip{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FF0000;
+}
+.blank{
+	padding-top: 8px;
+	padding-left: 5px;
+	padding-bottom: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+th{
+padding-left: 20px;
+}
+.table_element{
+	
+	width: 100%;
+	
+}
+.table_element td{  }
+.table_element .td_bal{  width:65%!important }
+.table_element .td_jobb{ width:35%!important }
+
+.table_element fieldset{ margin:10px 0 10px 10px; padding:10px }
+fieldset{
+	/* width: 750px;*/
+}
+.table_sablon{
+	padding-top: 10px;
+	border: 1px solid #999999;
+	border-collapse: collapse;
+}
+.th_sablon{
+	height: 20px;
+	border: 1px solid #999999;
+	background-color:#eeeeee;
+	color:#333333;
+	padding-top: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.td_sablon1{
+	height: 20px;
+	text-align: center;
+	padding-top: 5px;
+	min-width: 70px;
+}
+.td_sablon2{
+	height: 20px;
+	text-align: center;
+	padding-top: 5px;
+	background-color:#fafafa;
+	min-width: 70px;
+}
+.table_padding{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.moduletable_footer  { }
+	.moduletable_footer table {margin: 0 auto 0 auto;}
+		.moduletable_footer table td {padding: 5px 10px 5px 10px;}
+	.moduletable_footer .flinkseparator {border-right: 1px solid #333333;}
+
+
+/* FORM ELEMEK*/
+
+select,input,textarea {border:1px solid #D7D7D7;   }
+table th {
+	font-size: 13px;
+	text-align: left!important;
+	padding: 0 0 2px 0; color:#333;
+}
+.ws_search {margin-bottom: 20px; margin-top: 5px;}
+.btn_search_submit {
+	background-color: #fffcf4;
+	margin-left: 5px;
+	cursor: pointer;
+	}
+.sel-content hr {margin-bottom: 14px!important;}
+
+.table_sablon{}
+.table_sablon th { background-color: #fffcf4;}
+	.table_sablon .td_sablon2 {padding-left: 2px;}
+
+input,textarea,select {background-color: #ffffff;}
+.moduletable_menu{
+	background: url(../images/bg_fomenu.png);
+}
+.item15 a{
+	background-image: url(../images/bg_kilepes.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.item15 a:hover{
+	background-image: url(../images/bg_kilepes.png)!important;
+	background-repeat: no-repeat!important;
+	background-position: right center!important;
+}
+.item15 a span{
+	/*display: none;*/
+	background:url(../images/bg_kilepes.png) no-repeat!important;
+}
+.div_serach_submit{
+	position: relative!important;
+	width: 34px;
+}
+
+.tab_1 .tab_2{
+	float: left;
+	
+}
+.adminlist{
+
+/*
+display:block; float:none; clear:both;
+border-collapse: collapse;
+*/
+width: 100%;
+
+}
+#div_kat_tree{
+	-moz-border-radius:4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border: 1px solid #d7d7d7;
+	background-color: #f4f4f4;
+	
+}
+#editcell{	position: relative;
+	border: 1px solid #d7d7d7;
+	background-color: #f4f4f4;
+	margin-bottom: 5px;
+	overflow: hidden;
+	padding: 5px 5px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.td_serach_submit{ 
+	text-align:center;
+	
+	
+}
+.td_serach_submit input{ 
+background:url(../images/bg_felsomenu_gomb.png) no-repeat;
+border: 0;
+color: 595959!important;
+width:96px!important;
+height: 21px;
+}
+
+
+
+.paramlist_value textarea{ height:80px; width:400px;}
+td{ vertical-align:top;}
+.paramlist_value{vertical-align:middle;}
+.clr{ clear:both; float:none;}
+.arazas_kapcsolo{ margin:3px!important;}
+
+
+
+
+/* kereses balazs*/
+div.search1{}
+div.search1 .search_box{ width:90%; float:left; font-size:11px; line-height:140%;}
+.div_serach_submit{ width:10%; float:left;}
+div.search1 .inside { float:left; width:33%;}
+.clr{ clear:both; float:none;}
+div.search1 .search_box input, div.search1 .search_box select, div.search1 .search_box textarea{ font-size:10px; line-height:140%;} 
+
+.div_input{margin:0px 5px 5px 0px;}
+.checker{margin-bottom:3px; float:none; clear:both; }
+.checker .label{  }
+.checker .kereso_check{ }
+
+.table_search span.search_nev, .td_search span.search_nev{ width:auto; margin-right:10px;padding-left:0px;}
+span.search_nev{display:block; float:left; width:120px; line-height: 17px;}
+
+.textbox .input{ width:120px;}
+
+
+
+.btn_search_big, .btn_lista_big{
+	display:block; text-align:center; margin:0px 0px 10px auto;
+	width:100px;
+	font-size:11px;	
+	padding:2px 10px 2px 10px;border:1px solid #470000; color:#470000; background-color:#E7D4C7;
+}
+
+.btn_search_big:hover, .btn_lista_big:hover{
+	 background-color:#D4B9B9; text-decoration:none;
+}
+
+/* alapert kereso */
+.table_search1{ width:100%; }
+.table_search1 td{ 
+	 font-size:10px;line-height:140%;
+	
+ }
+.table_search{
+	
+	width:auto;
+	padding-top: 0px;font-size:11px; 
+}
+.td_search{ padding-top:10px;}
+.td_search #cond_rendeles_id{ width:40px;}
+.td_serach_sub{ padding-top:10px;}
+.div_table_search{ 
+	
+}
+.table_tetelsearch .inputok span{width:70px;}
+.table_tetelsearch .inputok{ width:260px; padding-left:5px;}
+
+.table_kimutatas legend{
+	color:#333333;
+	font-size:13px; display:block; font-weight:bold;
+}
+.table_kimutatas fieldset{ padding-top:10px; margin-bottom:15px;}
+.adminlist td.PARAMETEREK{ font-size:10px; }
+
+.span_error{ color:red; font-weight:bold;}
+.PARAMETERERTEK textarea{ width:500px; height:120px;}
+
+.gyujto_data div{ float:left; display:inline; padding-right:10px;}
+.gyujto_data{ overflow:hidden;}
+.gyujto_nev{ width:90px; font-weight:bold; font-size:11px;}
+.kapcs_cim{ width:110px; font-size:11px; display:block; float:left;}
+.gyujto_data div input[type=text]{ width:90px;}
+
+
+.adminlist .TERMEK table {border:none;}
+.adminlist .TERMEK table td {border: none;}
+
+.adminlist table .HIDDEN3 {border-right: none;}
+
+/*general*/
+.pane-sliders .title {
+	margin: 0;
+	padding: 2px;
+	color: #666;
+	cursor: pointer;
+}
+
+.pane-sliders .panel   { border: 1px solid #ccc; margin-bottom: 3px;}
+
+.pane-sliders .panel h3 { background: #f6f6f6; color: #666}
+
+.pane-sliders .content { background: #f6f6f6; }
+
+.pane-sliders .adminlist     { border: 0 none; }
+.pane-sliders .adminlist td  { border: 0 none; }
+
+.jpane-toggler  span     { background: transparent url(../images/j_arrow.png) 5px 50% no-repeat; padding-left: 20px;}
+.jpane-toggler-down span { background: transparent url(../images/j_arrow_down.png) 5px 50% no-repeat; padding-left: 20px;}
+
+.jpane-toggler-down {  border-bottom: 1px solid #ccc; }
+
+/* tabs */
+
+dl.tabs {
+	float: left;
+	margin: 0px 0 -1px 0;
+	z-index: 50;
+}
+
+dl.tabs dt {
+	-moz-border-radius:4px 4px 0px 0px;
+	border-radius: 4px 4px 0px 0px;
+	-webkit-border-radius: 4px 4px 0px 0px;
+	background-color:#F4F4F4;
+	border:1px solid #D7D7D7;
+	border-bottom: none;
+	overflow:hidden;
+	padding:5px 10px;
+	z-index:100;
+}
+
+dl.tabs dt.open {
+	font-weight: bold;
+	-moz-border-radius:4px 4px 0px 0px;
+	border-radius: 4px 4px 0px 0px;
+	-webkit-border-radius: 4px 4px 0px 0px;
+	background-color:#F4F4F4;
+	border:1px solid #D7D7D7;
+	border-bottom: none;
+	overflow:hidden;
+	padding:5px 10px;
+	z-index:100;
+}
+
+div.current {
+	clear: both;
+}
+
+div.current dd {
+	padding: 0;
+	margin: 0;
+}
+div.current table, div.current table th, div.current table td {border: none;}
+#ajaxContentCimkek td, #ajaxContentCimkek th {padding-right: 10px;}
+
+.paramlist #nev {width: 500px;}
+.paramlist textarea {width: 500px;}
+.paramlist .alapinput {width: 500px;}
+.paramlist select {width: 502px;}
+.paramlist #arakafa_id {width: 40px;}
+
+.td_bal .current, .td_jobb .current, .div_beallitas .current {
+	-moz-border-radius:0px 4px 4px 4px;
+	border-radius: 0px 4px 4px 4px;
+	-webkit-border-radius: 0px 4px 4px 4px;
+	background-color:#F4F4F4;
+	border:1px solid #D7D7D7;
+	
+}
+.td_bal .current {margin-right: 3px;}
+
+.current table tr:hover td {background: none;}
+
+.div_beallitas #user_id, .div_beallitas #webshop_id {width: 200px;}
+
+
+
+
+.search1 {margin-top: 5px;}
+.search1 #cond_megrendeles_tol_img, .search1 #cond_megrendeles_ig_img, .search1 #cond_kiszallitas_tol_img, .search1 #cond_kiszallitas_ig_img {margin-bottom: -5px; margin-left: 5px; height: 15px; width: 15px;}
+.search1 select {width: 150px!important;}
+
+.table_search1, .table_search1 td, .table_search1 th {border: none;}
+.table_search table {border: none;}
+
+
+.td_lapozo_felso {border-top: none!important;}
+
+.div_szamlap {
+	-moz-border-radius:4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	background-color:#F4F4F4;
+	border:1px solid #D7D7D7;
+	padding: 5px;
+	margin-top: 5px;
+}
+	.div_szamlap table {border: none;}
+	.div_szamlap table tr, .div_szamlap table td {border: none!important;}
+	.div_szamlap table td {padding: 2px;}
+	
+	
+.table_kimutatas table {
+	-moz-border-radius:4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border: 1px solid #d7d7d7;
+	border-collapse: collapse;
+}
+.table_kimutatas table th, .table_kimutatas table td {border: 1px solid #d7d7d7;}
+.table_kimutatas table th {background-color: #f4f4f4;} 
+.table_kimutatas table .row1 td {background-color: #ffffff;}
+.table_kimutatas table .row2 td {background-color: #f4f4f4;}
+
+.div_kampanyok, .div_szerzo {-moz-border-radius:4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	background-color:#F4F4F4;
+	border:1px solid #D7D7D7;
+}
+	.div_kampanyok table, .div_kampanyok table th, .div_kampanyok table td {border: none;}
+.div_szerzo table, .div_szerzo table th, .div_szerzo table td {border: none;}
+
+.div_rendeles {
+}
+.div_rendeles table table .lista_td { /*border: none!important; */ }
+
+	.div_rendeles table, .div_rendeles table th, .div_rendeles table td {border: none; background: none;}
+.table_csoportok table, .table_csoportok table th, .table_csoportok table td {border: none; background: none;}
+.table_csoportok #nev {width: 500px;}
+.table_nettobrutto {width: auto!important;}
+	.table_nettobrutto td {padding: 0px 4px 4px 0px!important;}
+	
+#form-login {
+	padding:20px 55px 50px 0px;
+	background: url("../images/bg_login.png") no-repeat right bottom;
+}
+#form-login h1 { margin-bottom: 10px;}
+#form-login label {width: 150px; padding-right: 10px; text-align: right; vertical-align: middle;}
+#form-login #modlgn_username, #form-login #modlgn_passwd { width: 160px;}
+#form-login #modlgn_remember {margin-left: 0px;}
+#form-login ul {margin-top: 10px;}
+
+.div_nincstalalat {
+	-moz-border-radius:4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	background-color:#F4F4F4;
+	border:1px solid #D7D7D7;
+	padding: 10px 5px;
+}
+
+
+#kedvezmeny_tipus, #keszpenzes_kedvezmeny_tipus, #kategoria_kedvezmeny_tipus {width: 80px;}
+.trifid_nagylogo {
+	background: url("../images/trifidlogo_nagy.png");
+	display: block;
+	width: 104px;
+	height: 838px;
+	text-decoration: none;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.termekimg {width: 70px; text-align: center;}
+
+.fcsoport #webshop_id {width: 502px;}
+.fcsoport #kategoria_id {width: 270px;}
+
+.div_kampanyok #kedvezmeny, .div_kampanyok #datum, .div_kampanyok #hossz, .div_kampanyok #koltseg {width: 240px;}
+.div_kampanyok #datum_img {height: 16px; width: auto; margin-bottom: -5px;}
+
+.UJ_MEGRENDELES {
+	background-image:url("../images/bg_uj.png");
+	background-position:center top;
+	background-repeat:repeat-y;
+	display: block; text-align: center; 
+}
+.TELJESITETT {
+	background-image:url("../images/bg_megoldva.png");
+	background-position:center top;
+	background-repeat:repeat-y;
+	display: block; text-align: center; 
+}
+
+#afa_id {width: 60px;}
+#div_hozzaad {border-bottom: 1px solid #d7d7d7; margin-bottom: 20px; padding-bottom: 10px;}
+input {margin-right: 5px;}
+
+.KISKERAR {}
+	.KISKERAR .lista_ar {}
+		.KISKERAR .lista_ar td {padding: 1px!important;}
+		.KISKERAR .lista_ar th {padding: 1px!important; white-space: nowrap;}		#termekek_kategoriafa {position: absolute; width: 200px; top: 6px; left: 6px;}#termekek_right {margin-left: 206px;}.unidiv_termeklista {overflow: hidden;}	.unidiv_termeklista .row {		float: left; 		margin-right: 5px; 		margin-top: 5px;		border: 1px solid #a4a4a4; 		background-color: #ffffff;		border-radius: 4px;		-moz-border-radius: 4px;		-webkit-border-radius: 4px;		width: 160px;		height: 100px;	}	.unidiv_termeklista .head {		height: 20px; 		position: relative;		overflow: hidden;		background-color: #4b4b4b;	}			.unidiv_termeklista .head .termeknev {			display: block;			float: left;			line-height: 20px;			padding-left: 3px;		}			.unidiv_termeklista .head .termeknev input {margin-top: 0px!important; margin-bottom: 2px!important; margin-left: 0px!important; vertical-align: middle;}			.unidiv_termeklista .head .termeknev a {				color: #ffffff;			}		.unidiv_termeklista .head .ikon_raktaron,		.unidiv_termeklista .head .ikon_aktiv {			display: block;			float: right;			margin-right: 2px;			border-radius: 2px;			-moz-border-radius: 2px;			-webkit-border-radius: 2px;			background-color: #ffffff;			width: 16px;			height: 16px;			line-height: 16px;			text-align: center;			font-weight: bold;			font-size: 14px;			margin-top: 2px;			cursor: pointer;		}				.unidiv_termeklista .body {margin: 3px;}

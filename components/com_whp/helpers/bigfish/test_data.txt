@@ -1,0 +1,93 @@
+CIB Bank
+
+Successful payment:
+Card number: 5111 1111 1111 1111
+Expiration date: anything in the future
+CVC: 111
+
+Failed payment:
+Card number: 4999 9999 9999 9999
+Expiration date: anything in the future
+CVC: 111
+
+--------------------------------------------------------------------------------
+
+K&H Bank
+
+Successful payment:
+Card number: 4550 5225 9830 5372
+Expiration date: 2003/11
+CVV2: 271
+
+Failed payment:
+Card number: 4205 7925 0786 4590
+Expiration date: 2006/10
+CVV2: 106
+
+--------------------------------------------------------------------------------
+
+OTP Bank
+
+Successful payment:
+Card number: 5016 2533 9900 0013
+Expiration date: 04/04
+CVC2: 111
+
+Failed payment:
+Card number: 1111 1111 1111 1117
+Expiration date: 04/04
+CVC2: 111
+
+--------------------------------------------------------------------------------
+
+Abaqoos
+
+Username: BIGFISH
+Password: 123456
+
+--------------------------------------------------------------------------------
+
+PayPal
+
+Before testing PayPal payment, you have to log in to the developer site with the following data in a separate browser tab:
+https://developer.paypal.com/
+Developer e-mail address: dev@bigfish.hu
+Password: bfpaypaldev
+
+Buyer e-mail address: buyer_1264842853_per@bigfish.hu
+Password: bfppbuyer
+
+--------------------------------------------------------------------------------
+
+MobilePayment
+
+Successful payment:
+36109000000 (successful transaction (charged to a bank account) with test phone number)
+900000000 (successful transaction (charged to a bank account) with test MFA [Mobile Payment Identifier])
+
+Failed payment:
+900001000
+36109002000
+36109003000
+36109004000
+36109005000
+36109000101
+36109000102
+36109000103
+36109000105
+36109000110
+36109000112
+36109000113
+36109000114
+36109000116
+36109000140
+36109000161
+36109000163
+36109000164
+36109000165
+36109000166
+36109000174
+36109000203
+36109000154
+36109010000
+36109020000

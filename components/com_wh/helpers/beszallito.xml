@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<params group="maindata" >
+	<param name="id" type="hidden" default="" label="" description=""  />	
+	<param name="nev" type="text" default="" label="BESZALLITO NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="afa_id" type="spec" function="getAfaSelect" default="" label="AFA" description=""  />
+	<param name="kapcs_kategoria_id" type="spec" function="getKapcs_kategoria_id" default="" label="KATEGORIA" description="" mandatory="" mandatory_text=""  />
+		
+</params>
+
+<params group="condFields">
+	<param name="cond_nev" q="bsz.nev" label="-" />
+
+</params>
+
+<params group="ordFields">
+
+</params>
+
+</root>

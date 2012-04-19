@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.7" type="template" client="site">
+	<name>fusion</name>
+	<creationDate>2012</creationDate>
+	<author>Trifid Kft.</author>
+	<version>1.7.0</version>
+	<description></description>
+
+	<files>
+		<folder>css</folder>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+
+
+</extension>

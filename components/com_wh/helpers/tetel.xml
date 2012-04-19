@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root> 
+  <params group="maindata" >
+    <param name="id" type="hidden" default="" label="" description=""  />
+    <param name="sajat_megjegyzes" type="textarea" default="" label="MEGJEGYZES" description=""  />	
+</params>
+
+<params group="session">
+    <param name="allapot" type="list" function="" popup="" default="" label="ALLAPOT" description="" mandatory="" mandatory_text=""  >
+      <option value=""></option>
+      <option value="visszaigazolásra vár">visszaigazolásra vár</option>
+      <option value="ügyfél döntésére várunk">ügyfél döntésére várunk</option>
+      <option value="előlegre várunk">előlegre várunk</option>
+      <option value="ügyfél vár a termékre">ügyfél vár a termékre</option>
+      <option value="várjuk az áru érkezését">várjuk az áru érkezését</option>
+      <option value="szállításra vár">szállításra vár</option>
+      <option value="hibás rendelés (nincs visszaigazolva)">hibás rendelés (nincs visszaigazolva)</option>
+      <option value="visszaigazolva (szállítás nem lehetséges)">visszaigazolva (szállítás nem lehetséges)</option>
+      <option value="szállítás vevő hibájából sikertelen">szállítás vevő hibájából sikertelen</option>
+      <option value="sikeres üzlet!">sikeres üzlet!</option>
+      <option value="MASOLAT">MASOLAT</option>	  
+    </param>
+	
+	<param name="statusz_beszerzes" type="list" function="" popup="" default="" label="STATUSZ BESZERZES" description="" mandatory="" mandatory_text=""  >
+      <option value=""></option>
+      <option value="megrendelve">megrendelve</option>
+      <option value="nincs">nincs megrendelve</option>
+   </param>
+    <param name="statusz_beerkezett" type="list" function="" popup="" default="" label="STATUSZ BEERKEZETT" description="" mandatory="" mandatory_text=""  > 
+	   <option value=""></option>
+	  <option value="beérkezett">beérkezett</option>
+      <option value="nincs">nem érkezett be</option>
+    </param>
+	
+	<param name="beszallito_fizetve" type="list" function="" popup="" default="" label="BESZALLITO FIZETVE" description="" mandatory="" mandatory_text=""  >
+      <option value=""></option>
+      <option value="besz. fizetve">besz. fizetve</option>
+      <option value="nincs">besz. nincs fizetve</option>
+     </param>
+	 
+	 <param name="megrendelo_fizetve" type="list" function="" popup="" default="" label="MEGRENDELO FIZETVE" description="" mandatory="" mandatory_text=""  > 
+	  <option value=""></option>
+	  <option value="megrendelő fizetve ">megrendelő fizetve </option>
+      <option value="nincs">megrendelő nincs fizetve</option>
+    </param>
+	
+	
+	
+</params>
+<params group="condFields">
+     <param name="cond_webshop_id" q="r.id" label="-" />
+	
+	<param name="cond_gyariszam" q="tetel.gyariszam" label="-" />
+    <param name="cond_allapot" q="r.allapot" label="-" />
+	<param name="cond_tetel_nev" q="tetel.nev" label="-" />
+    <param name="cond_beszallito_id" q="tetel.beszallito_id" label="-" />	
+	 <param name="cond_rendeles_id" q="r.id" label="-" />
+	<param name="cond_megrendeleve_datum_tol" q="r.megrendeleve_datum" label="-" />
+	<param name="cond_megrendeleve_datum_ig" q="r.megrendeleve_datum" label="-" />	
+		
+	<param name="cond_statusz_beszerzes" q="tetel.megrendeleve_datum" label="-" />
+	<param name="cond_statusz_beerkezett" q="tetel.beerkezett_datum" label="-" />
+	<param name="cond_beszallito_fizetve" q="tetel.beszallitonak_fizetve_datum" label="-" />
+	<param name="cond_megrendelo_fizetve" q="tetel.dhl_utalva_datum" label="-" />
+
+  </params>
+  <params group="ordFields"></params>
+  
+</root>

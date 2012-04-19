@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <params group="maindata" >
+	  <param name="id" type="hidden"  />
+	  <param name="aktiv_pane_id" type="hidden"   />
+  </params>
+
+
+  
+  <params group="felh_kat" >
+  		<param name="user_id" type="hidden" label="" function="" mandatory="" mandatory_text=""  />
+	 	<param name="felh_kat" type="spec" label="FELHASZNALOK TERMEKKATEGORIAKHOZ RENDELESE" function="getFelh_kat" mandatory="" mandatory_text=""  />
+  </params>  
+
+  <params group="webshop_kat" >
+  	  <param name="webshop_id" type="hidden" label="" function="" mandatory="" mandatory_text=""  />
+	  <param name="webshop_kat" type="spec" label="WEBSHOPOK TERMEKKATEGORIAKHOZ RENDELESE" function="getWebshop_kat" mandatory="" mandatory_text=""  />
+  </params>  
+  
+  <params group="koltsegek_kategoriankent" >
+		<param name="szazalek_id" type="hidden" label="" function="" mandatory="" mandatory_text=""  />
+	 	<param name="szazalek_kat" type="spec" label="" function="getSzazalek_kat" mandatory="" mandatory_text=""  />
+  </params> 
+
+  <params group="condFields"> </params>
+  <params group="ordFields"> </params>
+</root>

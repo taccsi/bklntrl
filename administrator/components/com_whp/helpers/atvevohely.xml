@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+<params group="kereso" >
+		<param name="atvhely_id" type="spec" function="getTelepulesId" default="" label="ATVEVOHELY" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />
+	</params>
+
+<params group="session" >
+	<param name="megye" type="hidden" default="" label="MEGYE" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="cond_telepules_id" type="hidden" default="" label="" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />
+</params>
+
+
+<params group="maindata">
+</params>
+  <params group="condFields">
+	<param name="cond_telepules_id" q="telep.id" label="-" />
+	<param name="megye" q="telep.megye" label="-" />
+  </params>
+  <params group="ordFields">
+ </params>
+</root>

@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.termek{ width:300px}
+.mezo_id, .sorrend{ width:20px!important}
+.SORREND{ width:40px}
+.KEPALAIRAS, .KEP{ width:120px}
+#sortable{margin:0; padding:0}
+#sortable li{ list-style-type:none!important; margin:0; padding:0}
+th.DATUM, td.DATUM{ width:150px}
+th.RENDELES_AZON, td.RENDELES_AZON{ width:20px}
+input.kereso_, input.aktiv_, input.akcios_{ width:20px}
+td.ERTEK input{ width:200px}
+th.CHECKED{ width:20px}
+#cim{ width:400px}
+.alapinput{ width:250px}
+textarea.alapinput{ width:400px}
+.span_error{ color:#FF0000}
+td{ vertical-align:top}

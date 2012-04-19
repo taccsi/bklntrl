@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<params group="maindata">
+		<param name="nev" type="text" default="" label="Üzlet neve" description="" mandatory="mandatoryCheck" mandatory_text="kérem töltse ki a mezőt"  />
+		<param name="cim" type="text" default="" label="Postacím" description="" mandatory="" mandatory_text=""  />
+		<param name="google_sz" type="text" default="" label="Google szélesség" description=""/>
+		<param name="google_m" type="text" default="" label="Google magasság" description=""/>
+		<param name="megye" type="list" default="" label="Megye" description="">
+			<option value=""></option>
+			<option id="2" value="Budapest" >Budapest</option>
+			<option id="10" value="Győr-Moson-Sopron" >Győr-Moson-Sopron</option>
+			<option id="3" value="Pest megye" >Pest megye</option>
+			<option id="5" value="Baranya megye" >Baranya megye</option>
+			<option id="4" value="Bács-Kiskun megye" >Bács-Kiskun megye</option>			
+			<option id="6" value="Békés megye" >Békés megye</option>
+			<option id="7" value="Borsod-Abaúj-Zemplén megye" >Borsod-Abaúj-Zemplén megye</option>
+			<option id="8" value="Csongrád megye" >Csongrád megye</option>
+			<option id="9" value="Fejér megye" >Fejér megye</option>
+			<option id="11" value="Hajdú-Bihar megye" >Hajdú-Bihar megye</option>
+			<option id="13" value="Jász-Nagykun-Szolnok megye" >Jász-Nagykun-Szolnok megye</option>
+			<option id="14" value="Komárom-Esztergom" >Komárom-Esztergom</option>
+			<option id="15" value="Nógrád megye" >Nógrád megye</option>
+			<option id="12" value="Heves" >Heves megye</option>
+			<option id="16" value="Somogy megye" >Somogy megye</option>
+			<option id="17" value="Szabolcs-Szatmár-Bereg megye" >Szabolcs-Szatmár-Bereg megye</option>
+			<option id="15" value="Tolna megye" >Tolna megye</option>
+			<option id="19" value="Vas megye" >Vas megye</option>
+			<option id="20" value="Veszprém megye" >Veszprém megye</option>
+			<option id="21" value="Zala megye" >Zala megye</option>
+		</param>
+		<param name="varos" type="text" default="" label="Város/Kerület" description=""/>
+		<param name="shimanoservicecenter" type="text" default="" label="shimanoservicecenter" description=""/>
+
+		<param name="markak" type="text" default="" label="Márkák" description=""/>
+		<param name="anchalozatonnelegyen" type="text" default="" label="anchalozatonnelegyen" description=""/>
+		<param name="tel" type="text" default="" label="Telefon" description=""/>						
+		<param name="url" type="text" default="" label="Honlap" description=""/>				
+		<param name="email" type="text" default="" label="Email" description=""/>
+		<param name="id" type="hidden"/>		
+
+	</params>
+	<params group="ordFields">
+	</params>	
+	<params group="condFields">
+		<param name="uzletnev" q="u.nev" />
+	</params>	
+</root>

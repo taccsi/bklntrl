@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5">
+<name>Hungarian Language Pack (formal)</name>
+<packagename>hu-HU</packagename>
+<version>2.5</version>
+<url></url>
+<packager></packager>
+<packagerurl></packagerurl>
+<description>Joomla! 2.5.1 Hungarian Language Package in informal style translated by Joomla! User Association Hungary</description>
+	<files>
+        <file type="language" client="administrator" id="hu-HU">admin_hu-HU.zip</file>
+        <file type="language" client="site" id="hu-HU">site_hu-HU.zip</file>
+	</files>
+</extension>

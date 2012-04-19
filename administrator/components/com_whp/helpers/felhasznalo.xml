@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+<params group="login" >
+	<param name="l_username" type="text" default="" js="onblur=torolClass(this,'active_input')" label="FELHASZNALONEV" description="" mandatory="checkFelhasznalo" mandatory_text="ROSSZ FLHASZNALONEV"  />
+	<param name="l_password" type="password" js="onblur=torolClass(this,'active_input')" function="" default="" label="JELSZO" description="" mandatory="checkPassword" mandatory_text="ROSSZ JELSZO"  />
+	<param name="submit1" type="asubmit" formid="loginForm" default="" label="" submitValue="LOGIN" description="" mandatory="" mandatory_text=""  />
+	<param name="elfelejtett" type="spec" function="getElfelejtett" default="" label="" value="ELFELEJTETT_JELSZO" description="" mandatory="" mandatory_text=""  />
+</params>
+
+<params group="reg_adatok" >
+	<param name="csillag" type="spec" function="getCsillagText" default="" label="" description=""  />
+	<param name="id" type="hidden" default="" label="" description=""  />
+	
+	<param name="name" type="spec" ajaxFunc="blurAjax" function ="getUserData" default="" label="NEV" description="" mandatory="mandatoryCheck" mandatory_text="KOTELEZO_KITOLTENI"  />
+	<param name="username" ajaxFunc="blurAjax" ajaxEvent="onblur" type="spec" function="getUserData" default="" label="FELHASZNALONEV" description="" mandatory="checkFelhasznalo" mandatory_text="FELHASZNALONEV_NEM_JO"  />
+	<param name="email" ajaxFunc="blurAjax" type="spec" function="getUserData" default="" label="EMAIL" description="" mandatory="checkEmail" mandatory_text="EMAIL KOTELEZO"  />
+	<param name="password" ajaxFunc="blurAjax" type="password" function="" default="" label="JELSZO" description="" mandatory="checkPassword" mandatory_text="ROSSZ_JELSZO1"  />
+	<param name="password_megerositese" js="onblur=torolClass(this,'active_input')" type="password" function="" default="" label="JELSZO_MEGEROSITESE" description="" mandatory="checkPassword" mandatory_text="ROSSZ_JELSZO2"  />
+	<param name="telefon" js="onblur=torolClass(this,'active_input')" type="text" default="" label="TELEFON" description="TELEFON_SZUKSEGLET" mandatory="" mandatory_text=""  />
+<param name="submit1" type="asubmit" formid="regForm" default="" label="" submitValue="MENTES" description="" mandatory="" mandatory_text=""  />
+
+
+</params>
+
+<params group="kieg_adatok" >
+
+</params>
+
+<params group="szamlazasi_adatok" >
+	<param name="szamlazasi_nev" type="text" default="" ajaxFunc="blurAjax" label="SZAMLAZASI NEV" description="" mandatory="mandatoryCheck" mandatory_text="KOTELEZO_KITOLTENI"  />
+	<param name="adoszam" type="text" default="" ajaxFunc="blurAjax" label="ADOSZAM" description="" mandatory="" mandatory_text="KOTELEZO_KITOLTENI"  />
+
+	<param name="irszam" type="text" default="" ajaxFunc="blurAjax"  label="IRANYITOSZAM" description="" mandatory="mandatoryCheck" mandatory_text="KOTELEZO_KITOLTENI"  />
+	<param name="varos" type="text" default="" ajaxFunc="blurAjax"  label="VAROS" description="" mandatory="mandatoryCheck" mandatory_text="KOTELEZO_KITOLTENI"  />
+	<param name="utca" type="text" default="" ajaxFunc="blurAjax"  label="UTCA" description="" mandatory="mandatoryCheck" mandatory_text="KOTELEZO_KITOLTENI"  />
+</params>
+  <params group="condFields">
+	<param name="cond_nev" q="f.nev" label="-" />
+  </params>
+  <params group="ordFields">
+ </params>
+</root>

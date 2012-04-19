@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5">
+  <name>whp_kereso_mini</name>
+  <creationDate>04-Apr-2012</creationDate>
+  <author>TakÃ¡cs BalÃ¡zs</author>
+  <authorEmail></authorEmail>
+  <authorUrl></authorUrl>
+  <copyright>Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <version>1.0.0</version>
+  <description>Please describe me...</description>
+  <files folder="site">
+    <folder>language</folder>
+    <filename>CHANGELOG.php</filename>
+    <filename>Copy of CHANGELOG.php</filename>
+    <filename>helpers.php</filename>
+    <filename module="mod_whp_kereso_mini">mod_whp_kereso_mini.php</filename>
+  </files>
+  <languages folder="site/language">
+    <language tag="en-GB">en-GB.mod_whp_kereso_mini.ini</language>
+    <language tag="en-GB">en-GB/en-GB.mod_vs_search.ini</language>
+    <language tag="en-GB">en-GB/en-GB.mod_whp_kereso_mini.ini</language>
+    <language tag="hu-HU">hu-HU.mod_whp_kereso_mini.ini</language>
+  </languages>
+  <params>
+    <param name="reszletes" type="text" default="0" label="Module Class Suffix" description=""></param>
+    <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX"></param>
+  </params>
+  <config/>
+</install>

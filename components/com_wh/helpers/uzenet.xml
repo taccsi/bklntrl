@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root> 
+  <params group="maindata" >
+
+   	<param name="id" type="hidden" />
+	<param name="termek_id" type="spec" function="getTermIdHidden"  />
+    
+	
+	<param name="user_nev" type="text" default="" label="USER_NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />	
+		
+	<param name="user_email" type="text" default="" label="EMAIL" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />	
+	<param name="nev" type="text" default="" label="HOZZASZOLAS_CIM" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="szoveg" type="textarea" default="" label="HOZZASZOLAS_SZOVEG" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  /> 	
+	
+	<param name="aktiv" type="hidden" default="igen" label="AKTIV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />	
+	<param name="datum" type="spec" function="getDatum" default="" label="" description="" mandatory="" mandatory_text="" />
+	<param name="ELKULD" type="spec" function="getFeladButton" default="" label="" description="" mandatory="" mandatory_text="" />
+</params>
+
+
+<params group="condFields">
+    <param name="cond_nev" q="szuz.nev" label="-" />
+  </params>
+  <params group="ordFields"></params>
+  
+</root>

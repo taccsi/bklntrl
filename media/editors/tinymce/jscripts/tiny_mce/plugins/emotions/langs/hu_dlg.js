@@ -1,0 +1,21 @@
+tinyMCE.addI18n('hu.emotions_dlg',{
+cry:"Sírás",
+cool:"Tök jó",
+desc:"Vigyorok",
+title:"Vigyor beszúrása",
+usage:"Navigálni a balra és jobbra nyilakkal lehet.",
+yell:"Sikoly",
+wink:"Kacsintás",
+undecided:"Határozatlan",
+"tongue_out":"Nyelvöltögetés",
+surprised:"Meglepődés",
+smile:"Mosoly",
+sealed:"Zárt ajkak",
+"money_mouth":"Pénzéhes",
+laughing:"Nevetés",
+kiss:"Csók",
+innocent:"Ártatlan",
+frown:"Rosszallás",
+"foot_in_mouth":"Fanyalgás",
+embarassed:"Zavart"
+});

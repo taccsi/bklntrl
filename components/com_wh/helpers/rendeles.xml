@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <params group="maindata" >
+    <param name="id" type="hidden" default="" label="" description=""  />
+    <param name="user_name" type="spec" function="getRendelesiAdatok" popup="-1" default="" label="RENDELESI ADATOK" description="" mandatory="" mandatory_text="" />
+  </params>
+  <params group="kapcsolok" >
+    <param name="allapot" type="spec" function="getAllapot" popup="" default="" label="ALLAPOT" description="" mandatory="" mandatory_text=""  >
+      <option value=""></option>
+      <option value="UJ_MEGRENDELES">UJ_MEGRENDELES</option>
+      <option value="FUTARNAK_ATADVA">FUTARNAK_ATADVA</option>
+      <option value="VISSZAUTASITOTT">VISSZAUTASITOTT</option>
+    </param> 
+    <param name="sajat_megjegyzes" type="textarea" function="" popup="" default="" label="SAJAT MEGJEGYZES" description="" mandatory="" mandatory_text=""  />
+  </params>
+  <params group="rendeles" >
+    <param name="kosar" type="spec" function="getTetelek" popup="" default="" label="TETELEK" description="" mandatory="" mandatory_text=""  />
+  </params>
+  <params group="kiszallitas" >
+    <param name="webshop_id" type="dbList" table="#__wh_webshop" v_="id" o_="nev" cond="" popup="" default="" label="WEBSHOP" description="" mandatory="" mandatory_text=""  />
+    <param name="kiszallitas_ar" type="spec" function="getKiszallitasAr" popup="" default="" label="KISZALLITAS AR" description="" mandatory="" mandatory_text=""  />
+  </params>
+  <params group="dhlpar" >
+    <param name="dhl_feltoltes_datum" type="text" function="" popup="" default="" label="" description="DHL_FAJL_FELTOLTES_DATUM" mandatory="" mandatory_text=""  />
+  </params>
+  <params group="pickpack" >
+    <param name="pickpack_atvhely_id" type="text" function="" popup="" default="" label="" description="PICKPACK_ATVHELY_ID" mandatory="" mandatory_text=""  />
+    <param name="pickpack_szallitmany_id" type="text" function="" popup="" default="" label="" description="PICKPACK_SZALLITMANY_ID" mandatory="" mandatory_text=""  />
+    <param name="pickpack_csomag_id" type="text" function="" popup="" default="" label="" description="PICKPACK_CSOMAG_ID" mandatory="" mandatory_text=""  />
+  </params>
+  <params group="session">
+    <param name="beszallito_netto_ar_arr" type="text" popup="" default="" label="" description="" mandatory="" mandatory_text="" />
+    <param name="beszallito_afa_arr" type="text" popup="" default="" label="" description="" mandatory="" mandatory_text="" />
+    <param name="termek_id_arr" type="text" function="" popup="" default="" label="" description="" mandatory="" mandatory_text="" />
+    <param name="beszallito_id_arr" type="text" function="" popup="" default="" label="" description="" mandatory="" mandatory_text="" />
+    <param name="gyariszam_arr" type="text" function="" popup="" default="" label="" description="" mandatory="" mandatory_text="" />
+  </params>
+  <params group="condFields">
+    <param name="cond_webshop_id" q="r.webshop_id" label="-" />
+    <param name="cond_rendeles_id" q="r.id" label="-" />
+    <param name="cond_csomagszam" q="r.csomagszam" label="-" />
+    <param name="cond_tetel_nev" q="tetel.nev" label="-" />
+    <param name="cond_gyariszam" q="tetel.gyariszam" label="-" />
+    <param name="cond_megrendeles_tol" q="r.datum" label="-" />
+    <param name="cond_szamlaszam" q="r.szamlaszam" label="-" />
+    <param name="cond_megrendeles_ig" q="r.datum" label="-" />
+    <param name="cond_kiszallitas_tol" q="r.kiszallitas_datum" label="-" />
+    <param name="cond_kiszallitas_ig" q="r.kiszallitas_datum" label="-" />
+    <param name="cond_allapot" q="r.allapot" label="-" />
+    <param name="cond_vasarlo" q="f.id" label="-" />
+    <param name="cond_szallitas_admin" q="r.szallitas_admin" label="-" />
+    <param name="cond_webshop_id" q="r.webshop_id" label="-" />
+    <param name="cond_beszallito_id" q="tetel.beszallito_id" label="-" />
+    <param name="cond_kiszallito_id" q="r.kiszallito_id" label="-" />
+    <param name="cond_atvhely_id" q="r.atvhely_id" label="-" />
+  </params>
+  <params group="ordFields"></params>
+</root>

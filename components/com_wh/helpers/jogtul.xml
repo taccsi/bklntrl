@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<params group="maindata">
+	<param name="id" type="hidden" default="" label="" description=""  />
+	<param name="nev" type="text" default="" label="NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+
+
+	<param name="orszag" type="text" default="" label="ORSZAG" description="" mandatory="" mandatory_text=""  />	
+	<param name="irszam" type="text" default="" label="IRSZAM" description="" mandatory="" mandatory_text=""  />	
+	<param name="varos" type="text" default="" label="VAROS" description="" mandatory="" mandatory_text=""  />	
+	<param name="utca_hazszam" type="text" default="" label="UTCA_HAZSZAM" description="" mandatory="" mandatory_text=""  />	
+	<param name="telefon" type="text" default="" label="TELEFON" description="" mandatory="" mandatory_text=""  />	
+	<param name="email" type="text" default="" label="EMAIL" description="" mandatory="" mandatory_text=""  />		
+	
+	<param name="kimutatas____" type="spec" idKell="1" function="getKimutatas" default="" label="KIMUTATAS" description="" mandatory="" mandatory_text="" />
+</params>
+
+  <params group="session">
+  </params>
+
+  <params group="condFields">
+	<param name="cond_nev" q="nev" label="-" />
+  </params>
+  <params group="ordFields">
+ </params>
+</root>

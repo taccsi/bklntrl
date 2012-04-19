@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset name="component"
+        label="Rendelés visszaigazoló email"
+        description=""
+    >
+
+        <field name="felado_nev" type="text"></field>
+        <field name="felado_email" type="text" ></field>
+        <field name="admin_email" type="text" ></field>
+        <field name="targy" type="text" ></field>
+        <field name="elkoszones" type="textarea" ></field>
+           
+        
+     </fieldset>
+</config>

@@ -1,0 +1,8 @@
+ul.tabs{list-style:none;border-bottom:1px solid #666;height:30px;margin:0!important;padding:0;}
+ul.tabs li{float:left;text-indent:0;list-style-image:none!important;border-top:1px solid #666;border-left:1px solid #666;border-right:1px solid #666;-webkit-border-top-left-radius:90px;-webkit-border-top-right-radius:90px;-moz-border-radius-topleft:90px;-moz-border-radius-topright:90px;border-top-left-radius:90px;border-top-right-radius:90px;margin:0!important;padding:0;}
+ul.tabs a{background:url(/tools/img/tabs/blue.png) no-repeat -420px 0;font-size:11px;display:block;height:30px;line-height:30px;text-align:center;text-decoration:none;color:#333;position:relative;top:1px;margin:0;padding:0 30px;}
+ul.tabs a:hover{color:#999;}
+ul.tabs a.current,ul.tabs a.current:hover,ul.tabs li.current a{cursor:default!important;color:red!important;}
+.panes{border:1px solid #C4C4C4;border-top:0;background-color:#F2F2F2;}
+.panes .pane{display:none;}
+ul.tabs a:active,ul.tabs a:focus{outline:none;}

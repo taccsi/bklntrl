@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<params group="maindata">
+	<param name="id" type="hidden" default="" label="" description=""  />
+	<param name="___" type="spec" default="" label="KAMPANY_TERMEKEK_SZAMA" description="" function="getTermekekSzama" mandatory="" mandatory_text=""  />
+	<param name="nev" type="text" default="" label="KAMPANY_NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+    <param name="webshop_id" type="dbList" table="#__wh_webshop" v_="id" o_="nev" sw="1" cond="" popup="" default="" label="WEBSHOP" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="grafika" type="list" function="" default="" label="GRAFIKA" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI" >
+		<option value=""></option>
+		<option value="kampany_6">NINCS_GRAFIKA</option>
+		<option value="kampany_4">AKCIO</option>
+		<option value="kampany_5">UJ_TERMEK</option>
+	</param>
+	<param name="kampany_prioritas" type="list" function="" default="" label="KAMPANY_PRIORITAS" description="" mandatory="" mandatory_text="" >
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	</param>
+	<param name="aktiv" type="sw" function="" default="igen" label="AKTIV" description="" mandatory="" mandatory_text="" />
+	<param name="fooldal" type="sw" function="" default="nem" label="FOOLDAL" description="" mandatory="" mandatory_text="" />	
+	<param name="kozos_akcio" type="sw" function="" default="nem" label="KOZOS_AKCIO" description="" mandatory="" mandatory_text="" />		
+	
+	<param name="kedvezmeny" type="spec" function="getKedvezmeny" idKell="1" default="" label="KEDVEZMENY" description="" mandatory="" mandatory_text=""  />
+	<param name="datum" type="calendar" function="" default="" label="DATUM" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI" />
+	<param name="hossz" type="text" function="" default="" label="KAMPANY_HOSSZA" description="NAP" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />	
+	<param name="kategoria_id" type="spec" popup="1" function="getKategoriaSelect" default="" label="KATEGORIA_HOZZARENDELES" description="" mandatory="" mandatory_text=""  />	
+  	<param name="kezi_torles" lablel="" type="checkbox" label="KEZI_BEALLITASOK_TORLESE" /> 	
+	<param name="kategoriak_menube" type="checkbox" function="" default="" label="KATEGORIAK_MENUBE" description="" mandatory="" mandatory_text=""  />
+	<param name="koltseg" type="text" default="" label="KOLTSEG" description="Ft" mandatory="" mandatory_text=""  />
+
+	<param name="leiras" type="editor" default="" label="LEIRAS" description="" mandatory="" mandatory_text=""  />
+</params>
+
+  <params group="session">
+	<param name="raktarfigyeles" type="checkbox" function="" default="" label="RAKTARFIGYELES" description="" mandatory="" mandatory_text=""  />	
+	<param name="kedvezmeny_tipus" lablel="" type="hidden" > 
+		<option value="%" >%</option>
+		<option value="OSSZEG" >OSSZEG</option>		
+	</param>
+  </params>
+
+  <params group="condFields">
+	<param name="cond_nev" q="kampany.nev" label="-" />
+  </params>
+  <params group="ordFields">
+ </params>
+</root>

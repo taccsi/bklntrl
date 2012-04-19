@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root> 
+  <params group="maindata" >
+    <param name="id" type="hidden"   />
+    <param name="nev" type="text" default="" label="NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />	
+    <param name="allapot" type="list" function="" popup="" default="" label="ALLAPOT" description="" mandatory="" mandatory_text=""  >
+      <option value=""></option>
+      <option value="visszaigazolásra vár">visszaigazolásra vár</option>
+      <option value="ügyfél döntésére várunk">ügyfél döntésére várunk</option>
+      <option value="előlegre várunk">előlegre várunk</option>
+      <option value="ügyfél vár a termékre">ügyfél vár a termékre</option>
+      <option value="várjuk az áru érkezését">várjuk az áru érkezését</option>
+      <option value="szállításra vár">szállításra vár</option>
+      <option value="hibás rendelés (nincs visszaigazolva)">hibás rendelés (nincs visszaigazolva)</option>
+      <option value="visszaigazolva (szállítás nem lehetséges)">visszaigazolva (szállítás nem lehetséges)</option>
+      <option value="szállítás vevő hibájából sikertelen">szállítás vevő hibájából sikertelen</option>
+      <option value="sikeres üzlet!">sikeres üzlet!</option>
+      <option value="MASOLAT">MASOLAT</option>	  
+    </param>
+
+</params>
+
+
+<params group="condFields">
+    <param name="cond_nev" q="rendeles.nev" label="-" />
+  </params>
+  <params group="ordFields"></params>
+  
+</root>

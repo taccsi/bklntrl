@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<params group="maindata" >
+	<param name="id" type="hidden" default="" label="" description=""  />	
+	<param name="nev" type="text" default="" label="MSABLON NEV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="sorrend" type="hidden" default="0" label="" description="" mandatory="" mandatory_text="KEREM TOLTSE KI"  />
+	<param name="aktiv" type="list" function="" default="igen" label="AKTIV" description="" mandatory="mandatoryCheck" mandatory_text="KEREM TOLTSE KI"  >
+		<option value="igen" >igen</option>
+		<option value="nem" >nem</option>	
+	</param>
+	<param name="mezo_id" type="dbCheckbox" table="" o_="nev" v_="id" default="" label="MSABLONMEZOK" sw="1" description="" mandatory="" mandatory_text=""  />	
+
+</params>
+ <params group="condFields">
+  	<param name="cond_nev" q="bsz.nev" label="-" />
+  </params>
+ <params group="ordFields">
+ </params>
+
+
+</root>

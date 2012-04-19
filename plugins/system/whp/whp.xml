@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="plugin" version="1.5" group="system">
+  <name>System - whp</name>
+  <creationDate>03-Apr-2012</creationDate>
+  <author></author>
+  <authorEmail></authorEmail>
+  <authorUrl></authorUrl>
+  <copyright></copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <version>1</version>
+  <description></description>
+  <files folder="site">
+    <filename plugin="whp">whp.php</filename>
+  </files>
+  <params/>
+  <config/>
+</install>
