@@ -37,7 +37,7 @@ $doc -> addScript("templates/bikelinetravel/js/superfish.js");
 				<div id="navi"><jdoc:include type="modules" name="mm" style="XHTML" /></div>
 													
 				<div id="header">
-					<div id="lang">
+					<div id="lang">xxx
 						<jdoc:include type="modules" name="lang" style="XHTML" />
 					</div>
 					<div id="search">
